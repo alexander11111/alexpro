@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.71.10?>
+<BuildOptions>
+  <Project>
+    <IECNamingConvention>true</IECNamingConvention>
+    <IecKeywordsAsStructureMembers>false</IecKeywordsAsStructureMembers>
+    <IecExtendedConstants>false</IecExtendedConstants>
+    <ProjectLogicalDirectory>D:\Vagez\x20ost\Logical\</ProjectLogicalDirectory>
+    <ProjectTempDirectory>D:\Vagez\x20ost\Temp\</ProjectTempDirectory>
+    <ASVersion>3.0.71.10</ASVersion>
+    <CrossReference>false</CrossReference>
+    <ActiveConfiguration>Config1</ActiveConfiguration>
+  </Project>
+  <Config Name="Config1">
+    <Target>SGC</Target>
+    <PermanentAnalogMemory>0</PermanentAnalogMemory>
+    <PermanentDigitalMemory>0</PermanentDigitalMemory>
+    <GccVersion>V2.95.3</GccVersion>
+  </Config>
+</BuildOptions>

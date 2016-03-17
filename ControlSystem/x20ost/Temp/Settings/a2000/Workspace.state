@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.71.10?>
+<State Top="0" Left="0" Width="0" Height="0" WindowState="Normal" xmlns="http://br-automation.co.at/AS/State">
+  <TextEdit ID="D:\Ost\GSMproject\x20ost\Logical\bnrmain\bnrkp.h" CaretLine="1" CaretColumn="1" FirstVisibleLine="1">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="D:\Ost\GSMproject\x20ost\Logical\bnrmain\bnrmain.h" CaretLine="1" CaretColumn="1" FirstVisibleLine="1">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="D:\Ost\GSMproject\x20ost\Logical\bnrmain\bnrtelesignal.c" CaretLine="1" CaretColumn="1" FirstVisibleLine="1">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="D:\Ost\GSMproject\x20ost\Logical\bnrmain\bnrsystemtimer.c" CaretLine="1" CaretColumn="1" FirstVisibleLine="1">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="D:\Ost\GSMproject\x20ost\Logical\bnrmain\bnrcomputer.h" CaretLine="1" CaretColumn="1" FirstVisibleLine="1">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="D:\Ost\GSMproject\x20ost\Logical\bnrmain\bnrcomserver.h" CaretLine="1" CaretColumn="1" FirstVisibleLine="1">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="D:\Ost\GSMproject\x20ost\Logical\bnrmain\bnrmessage.h" CaretLine="306" CaretColumn="11" FirstVisibleLine="286">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="D:\Ost\GSMproject\x20ost\Logical\bnrmain\bnrcomputer.c" CaretLine="1" CaretColumn="1" FirstVisibleLine="1">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="D:\Ost\GSMproject\x20ost\Logical\bnrmain\bnrcomserver.c" CaretLine="670" CaretColumn="5" FirstVisibleLine="650">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="D:\Ost\GSMproject\x20ost\Logical\bnrmain\bnrdbout.h" CaretLine="47" CaretColumn="7" FirstVisibleLine="27">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="D:\Ost\GSMproject\x20ost\Logical\bnrmain\bnrmodule101.c" CaretLine="479" CaretColumn="75" FirstVisibleLine="459">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="D:\Ost\GSMproject\x20ost\Logical\bnrmain\bnrhconfig.c" CaretLine="1" CaretColumn="1" FirstVisibleLine="1">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="D:\Ost\GSMproject\x20ost\Logical\bnrmain\bnrconfig.c" CaretLine="1" CaretColumn="1" FirstVisibleLine="1">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="D:\Ost\GSMproject\x20ost\Logical\bnrmain\bnrtelesensor.c" CaretLine="135" CaretColumn="8" FirstVisibleLine="112">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="D:\Ost\GSMproject\x20ost\Logical\bnrmain\bnrconst.h" CaretLine="14" CaretColumn="1" FirstVisibleLine="1">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="D:\Ost\GSMproject\x20ost\Logical\bnrmain\bnrtelesensor.h" CaretLine="1" CaretColumn="1" FirstVisibleLine="12">
+    <Bookmarks />
+  </TextEdit>
+  <TreeView ID="SwConfiguration-ProjectTree" EditColumn="2" TopRow="0" HorizontalScrollOffset="0" SortedColumn="0">
+    <Columns>
+      <Column Index="0" Width="110" Position="0" />
+      <Column Index="1" Width="50" Position="1" />
+      <Column Index="2" Width="60" Position="2" />
+      <Column Index="3" Width="60" Position="3" />
+      <Column Index="4" Width="180" Position="4" />
+      <Column Index="5" Width="70" Position="5" />
+      <Column Index="6" Width="40" Position="6" />
+      <Column Index="7" Width="0" Position="7" />
+    </Columns>
+    <ExpandedNodes>
+      <ExpandedNode Row="0" />
+      <ExpandedNode Row="4" />
+    </ExpandedNodes>
+    <SelectedNodes>
+      <SelectedNode Row="6" />
+    </SelectedNodes>
+    <ZoomIndices />
+  </TreeView>
+  <TreeView ID="MonitorTree" EditColumn="2" TopRow="0" HorizontalScrollOffset="0" SortedColumn="0">
+    <Columns>
+      <Column Index="0" Width="110" Position="0" />
+      <Column Index="1" Width="50" Position="1" />
+      <Column Index="2" Width="60" Position="2" />
+      <Column Index="3" Width="60" Position="3" />
+      <Column Index="4" Width="0" Position="4" />
+      <Column Index="5" Width="0" Position="5" />
+      <Column Index="6" Width="40" Position="6" />
+      <Column Index="7" Width="0" Position="7" />
+    </Columns>
+    <ExpandedNodes />
+    <SelectedNodes />
+    <ZoomIndices />
+  </TreeView>
+  <TreeView ID="SwConfiguration-ControllerTree" EditColumn="0" TopRow="0" HorizontalScrollOffset="0" SortedColumn="0">
+    <Columns>
+      <Column Index="0" Width="100" Position="0" />
+      <Column Index="1" Width="50" Position="1" />
+      <Column Index="2" Width="60" Position="2" />
+      <Column Index="3" Width="40" Position="3" />
+      <Column Index="4" Width="60" Position="4" />
+      <Column Index="5" Width="0" Position="5" />
+      <Column Index="6" Width="0" Position="6" />
+    </Columns>
+    <ExpandedNodes />
+    <SelectedNodes />
+    <ZoomIndices />
+  </TreeView>
+</State>

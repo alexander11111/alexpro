@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationRuntimeIOSystem Version="1.0"?>
+<IO xmlns="http://www.br-automation.com/AR/IO">
+<Links>
+<LN ID="I#XFFI0000" T="4">
+</LN>
+<LN ID="I#XFFI0010" T="4">
+</LN>
+<LN ID="I#XFFI0011" T="4">
+</LN>
+<LN ID="I#XFFI0012" T="4">
+</LN>
+<LN ID="I#XFFI0013" T="4">
+</LN>
+<LN ID="I#XFFI0014" T="4">
+</LN>
+<LN ID="I#XFFI0015" T="4">
+</LN>
+<LN ID="I#XFFI0016" T="4">
+</LN>
+<LN ID="I#XFFI0017" T="4">
+</LN>
+<LN ID="I#XFFI0018" T="4">
+</LN>
+<LN ID="I#XFFI0019" T="4">
+</LN>
+<LN ID="I#XFFI001A" T="4">
+</LN>
+<LN ID="I#XFFI001B" T="4">
+</LN>
+<LN ID="I#XFFI001C" T="4">
+</LN>
+<LN ID="I#XFFI001D" T="4">
+</LN>
+<LN ID="I#X00O0000$2" T="1">
+</LN>
+<LN ID="I#X00F0001$0" T="1">
+</LN>
+<LN ID="I#X00F0001$2" T="1">
+</LN>
+<LN ID="I#X01O0000$2" T="1">
+</LN>
+<LN ID="I#X01C0080" T="5">
+</LN>
+<LN ID="I#X01C0081" T="5">
+</LN>
+<LN ID="I#X01C0082" T="5">
+</LN>
+<LN ID="I#X01C0083" T="5">
+</LN>
+<LN ID="I#X01C0084" T="5">
+</LN>
+<LN ID="I#X01C0085" T="5">
+</LN>
+<LN ID="I#X01C0086" T="5">
+</LN>
+<LN ID="I#X01C0087" T="5">
+</LN>
+<LN ID="Q#X01C00A0" T="5">
+</LN>
+<LN ID="Q#X01C00A1" T="5">
+</LN>
+<LN ID="Q#X01C00A2" T="5">
+</LN>
+<LN ID="Q#X01C00A3" T="5">
+</LN>
+<LN ID="Q#X01C00A4" T="5">
+</LN>
+<LN ID="Q#X01C00A5" T="5">
+</LN>
+<LN ID="Q#X01C00A6" T="5">
+</LN>
+<LN ID="Q#X01C00A7" T="5">
+</LN>
+<LN ID="I#X02O0000$2" T="1">
+</LN>
+<LN ID="I#X02C0080" T="5">
+</LN>
+<LN ID="I#X02C0081" T="5">
+</LN>
+<LN ID="I#X02C0082" T="5">
+</LN>
+<LN ID="I#X02C0083" T="5">
+</LN>
+<LN ID="I#X02C0084" T="5">
+</LN>
+<LN ID="I#X02C0085" T="5">
+</LN>
+<LN ID="I#X02C0086" T="5">
+</LN>
+<LN ID="I#X02C0087" T="5">
+</LN>
+<LN ID="Q#X02C00A0" T="5">
+</LN>
+<LN ID="Q#X02C00A1" T="5">
+</LN>
+<LN ID="Q#X02C00A2" T="5">
+</LN>
+<LN ID="Q#X02C00A3" T="5">
+</LN>
+<LN ID="Q#X02C00A4" T="5">
+</LN>
+<LN ID="Q#X02C00A5" T="5">
+</LN>
+<LN ID="Q#X02C00A6" T="5">
+</LN>
+<LN ID="Q#X02C00A7" T="5">
+</LN>
+<LN ID="I#X03O0000$2" T="1">
+</LN>
+<LN ID="I#X03C0000" T="3">
+<PV ID="4uiValueAI4_0"/>
+</LN>
+<LN ID="I#X03C0002" T="3">
+<PV ID="4uiValueAI4_1"/>
+</LN>
+<LN ID="I#X03C001E" T="5">
+</LN>
+<LN ID="I#X04O0000$2" T="1">
+</LN>
+<LN ID="I#X04C0000" T="3">
+<PV ID="4uiValueAI5_0"/>
+</LN>
+<LN ID="I#X04C0002" T="3">
+<PV ID="4uiValueAI5_1"/>
+</LN>
+<LN ID="I#X04C001E" T="5">
+</LN>
+<LN ID="I#X05O0000$2" T="1">
+</LN>
+<LN ID="Q#X05C0000" T="3">
+<PV ID="4uiValueAO6_0"/>
+</LN>
+<LN ID="Q#X05C0002" T="3">
+<PV ID="4uiValueAO6_1"/>
+</LN>
+<LN ID="Q#X05C0004" T="3">
+<PV ID="4uiValueAO6_2"/>
+</LN>
+<LN ID="Q#X05C0006" T="3">
+<PV ID="4uiValueAO6_3"/>
+</LN>
+<LN ID="I#X06O0000$2" T="1">
+</LN>
+<LN ID="I#X06F0001$0" T="1">
+<PV ID="4blValueDI7_0"/>
+</LN>
+<LN ID="I#X06F0001$1" T="1">
+<PV ID="4blValueDI7_1"/>
+</LN>
+<LN ID="I#X06F0001$2" T="1">
+<PV ID="4blValueDI7_2"/>
+</LN>
+<LN ID="I#X06F0001$3" T="1">
+<PV ID="4blValueDI7_3"/>
+</LN>
+<LN ID="I#X06F0001$4" T="1">
+<PV ID="4blValueDI7_4"/>
+</LN>
+<LN ID="I#X06F0001$5" T="1">
+<PV ID="4blValueDI7_5"/>
+</LN>
+<LN ID="I#X06F0001$6" T="1">
+<PV ID="4blValueDI7_6"/>
+</LN>
+<LN ID="I#X06F0001$7" T="1">
+<PV ID="4blValueDI7_7"/>
+</LN>
+<LN ID="I#X06F0002$0" T="1">
+<PV ID="4blValueDI7_8"/>
+</LN>
+<LN ID="I#X06F0002$1" T="1">
+<PV ID="4blValueDI7_9"/>
+</LN>
+<LN ID="I#X06F0002$2" T="1">
+<PV ID="4blValueDI7_10"/>
+</LN>
+<LN ID="I#X06F0002$3" T="1">
+<PV ID="4blValueDI7_11"/>
+</LN>
+<LN ID="I#X07O0000$2" T="1">
+</LN>
+<LN ID="I#X07F0001$0" T="1">
+<PV ID="4blValueDI8_0"/>
+</LN>
+<LN ID="I#X07F0001$1" T="1">
+<PV ID="4blValueDI8_1"/>
+</LN>
+<LN ID="I#X07F0001$2" T="1">
+<PV ID="4blValueDI8_2"/>
+</LN>
+<LN ID="I#X07F0001$3" T="1">
+<PV ID="4blValueDI8_3"/>
+</LN>
+<LN ID="I#X07F0001$4" T="1">
+<PV ID="4blValueDI8_4"/>
+</LN>
+<LN ID="I#X07F0001$5" T="1">
+<PV ID="4blValueDI8_5"/>
+</LN>
+<LN ID="I#X07F0001$6" T="1">
+<PV ID="4blValueDI8_6"/>
+</LN>
+<LN ID="I#X07F0001$7" T="1">
+<PV ID="4blValueDI8_7"/>
+</LN>
+<LN ID="I#X07F0002$0" T="1">
+<PV ID="4blValueDI8_8"/>
+</LN>
+<LN ID="I#X07F0002$1" T="1">
+<PV ID="4blValueDI8_9"/>
+</LN>
+<LN ID="I#X07F0002$2" T="1">
+<PV ID="4blValueDI8_10"/>
+</LN>
+<LN ID="I#X07F0002$3" T="1">
+<PV ID="4blValueDI8_11"/>
+</LN>
+<LN ID="I#X08O0000$2" T="1">
+</LN>
+<LN ID="Q#X08F0000$0" T="1">
+<PV ID="4blValueDO9_0"/>
+</LN>
+<LN ID="Q#X08F0000$1" T="1">
+<PV ID="4blValueDO9_1"/>
+</LN>
+<LN ID="Q#X08F0000$2" T="1">
+<PV ID="4blValueDO9_2"/>
+</LN>
+<LN ID="Q#X08F0000$3" T="1">
+<PV ID="4blValueDO9_3"/>
+</LN>
+<LN ID="Q#X08F0000$4" T="1">
+<PV ID="4blValueDO9_4"/>
+</LN>
+<LN ID="Q#X08F0000$5" T="1">
+<PV ID="4blValueDO9_5"/>
+</LN>
+<LN ID="Q#X08F0000$6" T="1">
+<PV ID="4blValueDO9_6"/>
+</LN>
+<LN ID="Q#X08F0000$7" T="1">
+<PV ID="4blValueDO9_7"/>
+</LN>
+<LN ID="Q#X08F0001$0" T="1">
+<PV ID="4blValueDO9_8"/>
+</LN>
+<LN ID="Q#X08F0001$1" T="1">
+<PV ID="4blValueDO9_9"/>
+</LN>
+<LN ID="Q#X08F0001$2" T="1">
+<PV ID="4blValueDO9_10"/>
+</LN>
+<LN ID="Q#X08F0001$3" T="1">
+<PV ID="4blValueDO9_11"/>
+</LN>
+<LN ID="I#X08F0001$0" T="1">
+</LN>
+<LN ID="I#X08F0001$1" T="1">
+</LN>
+<LN ID="I#X08F0001$2" T="1">
+</LN>
+<LN ID="I#X08F0001$3" T="1">
+</LN>
+<LN ID="I#X08F0001$4" T="1">
+</LN>
+<LN ID="I#X08F0001$5" T="1">
+</LN>
+<LN ID="I#X08F0001$6" T="1">
+</LN>
+<LN ID="I#X08F0001$7" T="1">
+</LN>
+<LN ID="I#X08F0002$0" T="1">
+</LN>
+<LN ID="I#X08F0002$1" T="1">
+</LN>
+<LN ID="I#X08F0002$2" T="1">
+</LN>
+<LN ID="I#X08F0002$3" T="1">
+</LN>
+<LN ID="I#X09O0000$2" T="1">
+</LN>
+<LN ID="Q#X09F0000$0" T="1">
+<PV ID="4blValueDO10_0"/>
+</LN>
+<LN ID="Q#X09F0000$1" T="1">
+<PV ID="4blValueDO10_1"/>
+</LN>
+<LN ID="Q#X09F0000$2" T="1">
+<PV ID="4blValueDO10_2"/>
+</LN>
+<LN ID="Q#X09F0000$3" T="1">
+<PV ID="4blValueDO10_3"/>
+</LN>
+<LN ID="Q#X09F0000$4" T="1">
+<PV ID="4blValueDO10_4"/>
+</LN>
+<LN ID="Q#X09F0000$5" T="1">
+<PV ID="4blValueDO10_5"/>
+</LN>
+<LN ID="Q#X09F0000$6" T="1">
+<PV ID="4blValueDO10_6"/>
+</LN>
+<LN ID="Q#X09F0000$7" T="1">
+<PV ID="4blValueDO10_7"/>
+</LN>
+<LN ID="Q#X09F0001$0" T="1">
+<PV ID="4blValueDO10_8"/>
+</LN>
+<LN ID="Q#X09F0001$1" T="1">
+<PV ID="4blValueDO10_9"/>
+</LN>
+<LN ID="Q#X09F0001$2" T="1">
+<PV ID="4blValueDO10_10"/>
+</LN>
+<LN ID="Q#X09F0001$3" T="1">
+<PV ID="4blValueDO10_11"/>
+</LN>
+<LN ID="I#X09F0001$0" T="1">
+</LN>
+<LN ID="I#X09F0001$1" T="1">
+</LN>
+<LN ID="I#X09F0001$2" T="1">
+</LN>
+<LN ID="I#X09F0001$3" T="1">
+</LN>
+<LN ID="I#X09F0001$4" T="1">
+</LN>
+<LN ID="I#X09F0001$5" T="1">
+</LN>
+<LN ID="I#X09F0001$6" T="1">
+</LN>
+<LN ID="I#X09F0001$7" T="1">
+</LN>
+<LN ID="I#X09F0002$0" T="1">
+</LN>
+<LN ID="I#X09F0002$1" T="1">
+</LN>
+<LN ID="I#X09F0002$2" T="1">
+</LN>
+<LN ID="I#X09F0002$3" T="1">
+</LN>
+</Links></IO>

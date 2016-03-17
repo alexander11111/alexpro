@@ -1,0 +1,665 @@
+<Declarations>
+<Sym Name="pGlobalMemoryPointer" Pos="D:/Vagez/x20ost/Logical/bnrmain/typedefs.h:110:14" Scope="global" >
+<Type Name="void **" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/typedefs.h:110:14" > </Type>
+</Sym>
+<Sym Name="dwFL" Pos="D:/Vagez/x20ost/Logical/bnrmain/typedefs.h:111:15" Scope="global" >
+<Type Name="unsigned long " Typedef="UDINT" Kind="2" > </Type>
+</Sym>
+<Sym Name="m_pSystem" Pos="D:/Vagez/x20ost/Logical/bnrmain/bnrmysystem.h:69:17" Scope="global" >
+<Type Name="struct CSystem *" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmysystem.h:31:7" > <Elem Name="CCSystem" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmysystem.h:33:8" >
+<Type Name="void ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmysystem.h:33:9" > </Type>
+</Elem>
+<Elem Name="DCSystem" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmysystem.h:34:8" >
+<Type Name="void ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmysystem.h:34:9" > </Type>
+</Elem>
+<Elem Name="CreateSystem" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmysystem.h:36:8" >
+<Type Name="void ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmysystem.h:36:9" > </Type>
+</Elem>
+<Elem Name="CreateAdmin" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmysystem.h:37:11" >
+<Type Name="void ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmysystem.h:37:12" > </Type>
+</Elem>
+<Elem Name="CreateComputer" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmysystem.h:38:11" >
+<Type Name="void ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmysystem.h:38:12" > </Type>
+</Elem>
+<Elem Name="CreateSysBox" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmysystem.h:39:8" >
+<Type Name="void ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmysystem.h:39:9" > </Type>
+</Elem>
+<Elem Name="CreateObserveModule" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmysystem.h:40:8" >
+<Type Name="void ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmysystem.h:40:9" > </Type>
+</Elem>
+<Elem Name="CreateProc" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmysystem.h:41:8" >
+<Type Name="void ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmysystem.h:41:9" > </Type>
+</Elem>
+<Elem Name="SwitchSystem" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmysystem.h:42:8" >
+<Type Name="void ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmysystem.h:42:9" > </Type>
+</Elem>
+<Elem Name="SendMessage" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmysystem.h:43:8" >
+<Type Name="bool ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmysystem.h:43:9" > </Type>
+</Elem>
+<Elem Name="SendMsg" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmysystem.h:44:8" >
+<Type Name="void ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmysystem.h:44:9" > </Type>
+</Elem>
+<Elem Name="EventHandler" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmysystem.h:45:17" >
+<Type Name="bool ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmysystem.h:45:18" > </Type>
+</Elem>
+<Elem Name="m_pAdmin" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmysystem.h:48:13" >
+<Type Name="struct CAdmin *" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmysystem.h:48:13" > </Type>
+</Elem>
+<Elem Name="m_pComputer" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmysystem.h:49:16" >
+<Type Name="struct CComputer *" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmysystem.h:49:16" > </Type>
+</Elem>
+<Elem Name="m_pObsModule" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmysystem.h:53:14" >
+<Type Name="struct CKpModule *" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmysystem.h:53:14" > </Type>
+</Elem>
+<Elem Name="m_p101" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmysystem.h:55:14" >
+<Type Name="struct CModule101 *" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmysystem.h:55:14" > </Type>
+</Elem>
+<Elem Name="m_nCom" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmysystem.h:56:14" >
+<Type Name="struct CComServer *" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmysystem.h:56:14" > </Type>
+</Elem>
+<Elem Name="m_nCVS0" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmysystem.h:57:14" >
+<Type Name="struct CComVS0 *" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmysystem.h:57:14" > </Type>
+</Elem>
+<Elem Name="m_nCVS1" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmysystem.h:58:14" >
+<Type Name="struct CComVS1 *" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmysystem.h:58:14" > </Type>
+</Elem>
+<Elem Name="m_nTCP" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmysystem.h:59:14" >
+<Type Name="struct CTcpServer *" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmysystem.h:59:14" > </Type>
+</Elem>
+<Elem Name="m_nMS" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmysystem.h:60:14" >
+<Type Name="struct CMsModule *" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmysystem.h:60:14" > </Type>
+</Elem>
+<Elem Name="m_pResetTimer" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmysystem.h:61:11" >
+<Type Name="struct CMTimer " Typedef="CMTimer" Kind="7"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:16:7" > <Elem Name="CCMTimer" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:18:8" >
+<Type Name="void ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:18:9" > </Type>
+</Elem>
+<Elem Name="DCMTimer" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:19:8" >
+<Type Name="void ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:19:9" > </Type>
+</Elem>
+<Elem Name="SetTimer" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:21:8" >
+<Type Name="void ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:21:9" > </Type>
+</Elem>
+<Elem Name="Restart" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:22:11" >
+<Type Name="void ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:22:12" > </Type>
+</Elem>
+<Elem Name="OnTimer" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:23:11" >
+<Type Name="void ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:23:12" > </Type>
+</Elem>
+<Elem Name="OfTimer" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:24:8" >
+<Type Name="void ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:24:9" > </Type>
+</Elem>
+<Elem Name="GetTime" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:25:9" >
+<Type Name="unsigned long ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:25:10" > </Type>
+</Elem>
+<Elem Name="DoAction" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:26:16" >
+<Type Name="void ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:26:17" > </Type>
+</Elem>
+<Elem Name="sMsg" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:28:19" >
+<Type Name="struct _msgShSystem1 " Typedef="_msgShSystem1" Kind="7"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmessage.h:174:16" > <Elem Name="m_swLen" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmessage.h:176:10" >
+<Type Name="unsigned short " Typedef="UINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="m_sbyFrom" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmessage.h:177:10" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="m_sbyFor" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmessage.h:178:7" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="m_sbyIntType" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmessage.h:179:7" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="m_sbyServerID" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmessage.h:180:7" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="m_sbyType" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmessage.h:181:7" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="m_sbyDirection" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmessage.h:182:10" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="m_sbySensor" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmessage.h:183:10" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="m_sbyInfo" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmessage.h:184:7" >
+<Type Name="unsigned char [30] " Kind="6" > </Type>
+</Elem>
+</Type>
+</Elem>
+<Elem Name="m_dwSTime" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:29:12" >
+<Type Name="unsigned long " Typedef="UDINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="m_byFor" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:30:11" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="m_byFrom" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:31:8" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="m_byEvent" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:32:8" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="m_byDir" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:33:8" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="m_bySens" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:34:8" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="m_byBox" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:35:8" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="m_nCSystemTimer" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:36:3" >
+<Type Name="struct CSystemTimer " Typedef="CSystemTimer" Kind="7"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrsystemtimer.h:13:7" > <Elem Name="CCSystemTimer" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrsystemtimer.h:15:8" >
+<Type Name="void ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrsystemtimer.h:15:9" > </Type>
+</Elem>
+<Elem Name="DCSystemTimer" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrsystemtimer.h:16:8" >
+<Type Name="void ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrsystemtimer.h:16:9" > </Type>
+</Elem>
+<Elem Name="RunTimer" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrsystemtimer.h:17:8" >
+<Type Name="void ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrsystemtimer.h:17:9" > </Type>
+</Elem>
+<Elem Name="OnTimer" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrsystemtimer.h:18:8" >
+<Type Name="void ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrsystemtimer.h:18:9" > </Type>
+</Elem>
+<Elem Name="OfTimer" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrsystemtimer.h:19:8" >
+<Type Name="void ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrsystemtimer.h:19:9" > </Type>
+</Elem>
+<Elem Name="SetTimerID" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrsystemtimer.h:20:8" >
+<Type Name="void ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrsystemtimer.h:20:9" > </Type>
+</Elem>
+<Elem Name="DoAction" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrsystemtimer.h:21:19" >
+<Type Name="void ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrsystemtimer.h:21:20" > </Type>
+</Elem>
+<Elem Name="pBase" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrsystemtimer.h:23:3" >
+<Type Name="void *" Typedef="PVOID" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/typedefs.h:79:14" > </Type>
+</Elem>
+<Elem Name="pThis" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrsystemtimer.h:23:3" >
+<Type Name="void *" Typedef="PVOID" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/typedefs.h:79:14" > </Type>
+</Elem>
+<Elem Name="pChld" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrsystemtimer.h:23:3" >
+<Type Name="void *" Typedef="PVOID" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/typedefs.h:79:14" > </Type>
+</Elem>
+<Elem Name="m_blTimerState" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrsystemtimer.h:24:11" >
+<Type Name="bool " Typedef="plcbit" Kind="2" > </Type>
+</Elem>
+<Elem Name="m_dwTime" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrsystemtimer.h:25:9" >
+<Type Name="unsigned long " Typedef="UDINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="m_byTimerID" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrsystemtimer.h:26:8" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Elem>
+</Type>
+</Elem>
+<Elem Name="pBase" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:36:3" >
+<Type Name="struct CSystemTimer *" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:36:3" > </Type>
+</Elem>
+<Elem Name="pThis" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:36:3" >
+<Type Name="void *" Typedef="PVOID" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/typedefs.h:79:14" > </Type>
+</Elem>
+<Elem Name="pChld" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:36:3" >
+<Type Name="void *" Typedef="PVOID" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/typedefs.h:79:14" > </Type>
+</Elem>
+</Type>
+</Elem>
+<Elem Name="m_blSystemInitState" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmysystem.h:62:8" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="m_byTcpConn" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmysystem.h:63:8" >
+<Type Name="bool " Typedef="plcbit" Kind="2" > </Type>
+</Elem>
+<Elem Name="m_byArmAmout" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmysystem.h:64:8" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="m_bySystemID" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmysystem.h:65:8" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="m_nCCyclicSystem" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmysystem.h:66:3" >
+<Type Name="struct CCyclicSystem " Typedef="CCyclicSystem" Kind="7"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:17:7" > <Elem Name="CCCyclicSystem" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:19:8" >
+<Type Name="void ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:19:9" > </Type>
+</Elem>
+<Elem Name="DCCyclicSystem" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:20:8" >
+<Type Name="void ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:20:9" > </Type>
+</Elem>
+<Elem Name="Create" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:22:11" >
+<Type Name="void ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:22:12" > </Type>
+</Elem>
+<Elem Name="CreateSuspend" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:23:11" >
+<Type Name="void ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:23:12" > </Type>
+</Elem>
+<Elem Name="Start" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:24:11" >
+<Type Name="void ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:24:12" > </Type>
+</Elem>
+<Elem Name="Stop" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:25:8" >
+<Type Name="void ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:25:9" > </Type>
+</Elem>
+<Elem Name="SetStateProc" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:26:8" >
+<Type Name="void ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:26:9" > </Type>
+</Elem>
+<Elem Name="SetBoxID" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:27:8" >
+<Type Name="void ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:27:9" > </Type>
+</Elem>
+<Elem Name="SetPeriod" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:28:8" >
+<Type Name="void ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:28:9" > </Type>
+</Elem>
+<Elem Name="SetName" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:29:8" >
+<Type Name="void ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:29:9" > </Type>
+</Elem>
+<Elem Name="SendMessageData" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:30:8" >
+<Type Name="void ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:30:9" > </Type>
+</Elem>
+<Elem Name="SendMessageData1" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:31:8" >
+<Type Name="void ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:31:9" > </Type>
+</Elem>
+<Elem Name="GetStateProc" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:32:8" >
+<Type Name="unsigned char ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:32:9" > </Type>
+</Elem>
+<Elem Name="GetWordParam" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:33:8" >
+<Type Name="unsigned short ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:33:9" > </Type>
+</Elem>
+<Elem Name="CyclicProc" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:34:19" >
+<Type Name="void ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:34:20" > </Type>
+</Elem>
+<Elem Name="GetMessage" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:35:16" >
+<Type Name="bool ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:35:17" > </Type>
+</Elem>
+<Elem Name="EventHandler" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:36:16" >
+<Type Name="bool ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:36:17" > </Type>
+</Elem>
+<Elem Name="SetMsgAuto" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:38:8" >
+<Type Name="void ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:38:9" > </Type>
+</Elem>
+<Elem Name="SetState" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:39:8" >
+<Type Name="bool ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:39:9" > </Type>
+</Elem>
+<Elem Name="GetStateCode" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:40:14" >
+<Type Name="unsigned char ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:40:15" > </Type>
+</Elem>
+<Elem Name="HandleEvent" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:41:8" >
+<Type Name="bool ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:41:9" > </Type>
+</Elem>
+<Elem Name="HandleTask" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:43:16" >
+<Type Name="bool ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:43:17" > </Type>
+</Elem>
+<Elem Name="GetStateList" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:44:21" >
+<Type Name="struct _tagTStateList *( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:44:24" > </Type>
+</Elem>
+<Elem Name="GetState" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:45:9" >
+<Type Name="struct _tagTState *( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:45:12" > </Type>
+</Elem>
+<Elem Name="v" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:47:8" >
+<Type Name="unsigned char [20] " Kind="6" > </Type>
+</Elem>
+<Elem Name="m_pvState" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:48:9" >
+<Type Name="struct _tagTState *" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:48:9" > </Type>
+</Elem>
+<Elem Name="m_vState" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:49:17" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="m_pStateList" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:50:14" >
+<Type Name="struct _tagTStateList *" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:50:14" > </Type>
+</Elem>
+<Elem Name="m_byPeriod" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:52:9" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="m_byStateProc" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:53:9" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="m_byBoxID" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:54:9" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="m_chProcName" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:55:9" >
+<Type Name="signed char [50] " Kind="6" > </Type>
+</Elem>
+<Elem Name="m_nsMessage" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:56:12" >
+<Type Name="struct _msgSystem0 " Typedef="_msgSystem0" Kind="7"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmessage.h:138:16" > <Elem Name="m_swLen" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmessage.h:140:10" >
+<Type Name="unsigned short " Typedef="UINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="m_sbyFrom" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmessage.h:141:10" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="m_sbyFor" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmessage.h:142:7" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="m_sbyIntType" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmessage.h:143:7" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="m_sbyServerID" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmessage.h:144:7" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="m_sbyType" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmessage.h:145:7" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="m_sbyDirection" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmessage.h:146:10" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="m_sbySensor" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmessage.h:147:10" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="m_sbyInfo" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmessage.h:148:7" >
+<Type Name="unsigned char [350] " Kind="6" > </Type>
+</Elem>
+</Type>
+</Elem>
+<Elem Name="m_dwAmoutQuant" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:57:9" >
+<Type Name="unsigned long " Typedef="UDINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="m_nATmr" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:58:11" >
+<Type Name="struct CMTimer [4] " Kind="6"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:16:7" > <Elem Name="CCMTimer" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:18:8" >
+<Type Name="void ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:18:9" > </Type>
+</Elem>
+<Elem Name="DCMTimer" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:19:8" >
+<Type Name="void ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:19:9" > </Type>
+</Elem>
+<Elem Name="SetTimer" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:21:8" >
+<Type Name="void ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:21:9" > </Type>
+</Elem>
+<Elem Name="Restart" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:22:11" >
+<Type Name="void ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:22:12" > </Type>
+</Elem>
+<Elem Name="OnTimer" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:23:11" >
+<Type Name="void ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:23:12" > </Type>
+</Elem>
+<Elem Name="OfTimer" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:24:8" >
+<Type Name="void ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:24:9" > </Type>
+</Elem>
+<Elem Name="GetTime" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:25:9" >
+<Type Name="unsigned long ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:25:10" > </Type>
+</Elem>
+<Elem Name="DoAction" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:26:16" >
+<Type Name="void ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:26:17" > </Type>
+</Elem>
+<Elem Name="sMsg" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:28:19" >
+<Type Name="struct _msgShSystem1 " Typedef="_msgShSystem1" Kind="7"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmessage.h:174:16" > <Elem Name="m_swLen" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmessage.h:176:10" >
+<Type Name="unsigned short " Typedef="UINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="m_sbyFrom" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmessage.h:177:10" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="m_sbyFor" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmessage.h:178:7" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="m_sbyIntType" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmessage.h:179:7" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="m_sbyServerID" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmessage.h:180:7" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="m_sbyType" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmessage.h:181:7" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="m_sbyDirection" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmessage.h:182:10" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="m_sbySensor" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmessage.h:183:10" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="m_sbyInfo" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmessage.h:184:7" >
+<Type Name="unsigned char [30] " Kind="6" > </Type>
+</Elem>
+</Type>
+</Elem>
+<Elem Name="m_dwSTime" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:29:12" >
+<Type Name="unsigned long " Typedef="UDINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="m_byFor" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:30:11" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="m_byFrom" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:31:8" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="m_byEvent" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:32:8" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="m_byDir" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:33:8" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="m_bySens" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:34:8" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="m_byBox" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:35:8" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="m_nCSystemTimer" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:36:3" >
+<Type Name="struct CSystemTimer " Typedef="CSystemTimer" Kind="7"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrsystemtimer.h:13:7" > <Elem Name="CCSystemTimer" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrsystemtimer.h:15:8" >
+<Type Name="void ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrsystemtimer.h:15:9" > </Type>
+</Elem>
+<Elem Name="DCSystemTimer" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrsystemtimer.h:16:8" >
+<Type Name="void ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrsystemtimer.h:16:9" > </Type>
+</Elem>
+<Elem Name="RunTimer" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrsystemtimer.h:17:8" >
+<Type Name="void ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrsystemtimer.h:17:9" > </Type>
+</Elem>
+<Elem Name="OnTimer" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrsystemtimer.h:18:8" >
+<Type Name="void ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrsystemtimer.h:18:9" > </Type>
+</Elem>
+<Elem Name="OfTimer" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrsystemtimer.h:19:8" >
+<Type Name="void ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrsystemtimer.h:19:9" > </Type>
+</Elem>
+<Elem Name="SetTimerID" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrsystemtimer.h:20:8" >
+<Type Name="void ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrsystemtimer.h:20:9" > </Type>
+</Elem>
+<Elem Name="DoAction" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrsystemtimer.h:21:19" >
+<Type Name="void ( * )( ... )" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrsystemtimer.h:21:20" > </Type>
+</Elem>
+<Elem Name="pBase" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrsystemtimer.h:23:3" >
+<Type Name="void *" Typedef="PVOID" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/typedefs.h:79:14" > </Type>
+</Elem>
+<Elem Name="pThis" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrsystemtimer.h:23:3" >
+<Type Name="void *" Typedef="PVOID" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/typedefs.h:79:14" > </Type>
+</Elem>
+<Elem Name="pChld" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrsystemtimer.h:23:3" >
+<Type Name="void *" Typedef="PVOID" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/typedefs.h:79:14" > </Type>
+</Elem>
+<Elem Name="m_blTimerState" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrsystemtimer.h:24:11" >
+<Type Name="bool " Typedef="plcbit" Kind="2" > </Type>
+</Elem>
+<Elem Name="m_dwTime" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrsystemtimer.h:25:9" >
+<Type Name="unsigned long " Typedef="UDINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="m_byTimerID" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrsystemtimer.h:26:8" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Elem>
+</Type>
+</Elem>
+<Elem Name="pBase" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:36:3" >
+<Type Name="struct CSystemTimer *" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:36:3" > </Type>
+</Elem>
+<Elem Name="pThis" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:36:3" >
+<Type Name="void *" Typedef="PVOID" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/typedefs.h:79:14" > </Type>
+</Elem>
+<Elem Name="pChld" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:36:3" >
+<Type Name="void *" Typedef="PVOID" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/typedefs.h:79:14" > </Type>
+</Elem>
+</Type>
+</Elem>
+<Elem Name="m_dwTM" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:59:9" >
+<Type Name="unsigned long [4] " Kind="6" > </Type>
+</Elem>
+<Elem Name="m_byAutoState" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:60:8" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="V0" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:61:8" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="V1" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:61:11" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="m_dwAutoTime" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:62:9" >
+<Type Name="unsigned long " Typedef="UDINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="pBase" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:63:3" >
+<Type Name="void *" Typedef="PVOID" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/typedefs.h:79:14" > </Type>
+</Elem>
+<Elem Name="pThis" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:63:3" >
+<Type Name="void *" Typedef="PVOID" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/typedefs.h:79:14" > </Type>
+</Elem>
+<Elem Name="pChld" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:63:3" >
+<Type Name="void *" Typedef="PVOID" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/typedefs.h:79:14" > </Type>
+</Elem>
+</Type>
+</Elem>
+<Elem Name="pBase" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmysystem.h:66:3" >
+<Type Name="struct CCyclicSystem *" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmysystem.h:66:3" > </Type>
+</Elem>
+<Elem Name="pThis" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmysystem.h:66:3" >
+<Type Name="void *" Typedef="PVOID" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/typedefs.h:79:14" > </Type>
+</Elem>
+<Elem Name="pChld" Pos= "D:/Vagez/x20ost/Logical/bnrmain/bnrmysystem.h:66:3" >
+<Type Name="void *" Typedef="PVOID" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/typedefs.h:79:14" > </Type>
+</Elem>
+</Type>
+</Sym>
+<Sym Name="SYSXInfo0" Pos="D:/Vagez/x20ost/Logical/bnrmain/bnrmain.c:19:22" Scope="global" >
+<Type Name="struct SYSxinfo_typ " Typedef="SYSxinfo_typ" Kind="7"  Pos= "D:/Vagez/x20ost/Temp/Includes/sys_lib.h:133:16" > <Elem Name="aws_name" Pos= "D:/Vagez/x20ost/Temp/Includes/sys_lib.h:134:15" >
+<Type Name="char [6] " Kind="6" > </Type>
+</Elem>
+<Elem Name="aws_type" Pos= "D:/Vagez/x20ost/Temp/Includes/sys_lib.h:135:15" >
+<Type Name="char [2] " Kind="6" > </Type>
+</Elem>
+<Elem Name="cpu_info" Pos= "D:/Vagez/x20ost/Temp/Includes/sys_lib.h:136:15" >
+<Type Name="unsigned long " Typedef="UDINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="ma_globl_len" Pos= "D:/Vagez/x20ost/Temp/Includes/sys_lib.h:137:15" >
+<Type Name="unsigned short " Typedef="UINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="md_globl_len" Pos= "D:/Vagez/x20ost/Temp/Includes/sys_lib.h:138:15" >
+<Type Name="unsigned short " Typedef="UINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="os_len" Pos= "D:/Vagez/x20ost/Temp/Includes/sys_lib.h:139:15" >
+<Type Name="unsigned long " Typedef="UDINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="user_len" Pos= "D:/Vagez/x20ost/Temp/Includes/sys_lib.h:140:15" >
+<Type Name="unsigned long " Typedef="UDINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="tmp_len" Pos= "D:/Vagez/x20ost/Temp/Includes/sys_lib.h:141:15" >
+<Type Name="unsigned long " Typedef="UDINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="eprom_len" Pos= "D:/Vagez/x20ost/Temp/Includes/sys_lib.h:142:15" >
+<Type Name="unsigned long " Typedef="UDINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="fix_ram_len" Pos= "D:/Vagez/x20ost/Temp/Includes/sys_lib.h:143:15" >
+<Type Name="unsigned long " Typedef="UDINT" Kind="2" > </Type>
+</Elem>
+</Type>
+</Sym>
+<Sym Name="SYSXInfo1" Pos="D:/Vagez/x20ost/Logical/bnrmain/bnrmain.c:19:32" Scope="global" >
+<Type Name="struct SYSxinfo_typ " Typedef="SYSxinfo_typ" Kind="7"  Pos= "D:/Vagez/x20ost/Temp/Includes/sys_lib.h:133:16" > <Elem Name="aws_name" Pos= "D:/Vagez/x20ost/Temp/Includes/sys_lib.h:134:15" >
+<Type Name="char [6] " Kind="6" > </Type>
+</Elem>
+<Elem Name="aws_type" Pos= "D:/Vagez/x20ost/Temp/Includes/sys_lib.h:135:15" >
+<Type Name="char [2] " Kind="6" > </Type>
+</Elem>
+<Elem Name="cpu_info" Pos= "D:/Vagez/x20ost/Temp/Includes/sys_lib.h:136:15" >
+<Type Name="unsigned long " Typedef="UDINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="ma_globl_len" Pos= "D:/Vagez/x20ost/Temp/Includes/sys_lib.h:137:15" >
+<Type Name="unsigned short " Typedef="UINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="md_globl_len" Pos= "D:/Vagez/x20ost/Temp/Includes/sys_lib.h:138:15" >
+<Type Name="unsigned short " Typedef="UINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="os_len" Pos= "D:/Vagez/x20ost/Temp/Includes/sys_lib.h:139:15" >
+<Type Name="unsigned long " Typedef="UDINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="user_len" Pos= "D:/Vagez/x20ost/Temp/Includes/sys_lib.h:140:15" >
+<Type Name="unsigned long " Typedef="UDINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="tmp_len" Pos= "D:/Vagez/x20ost/Temp/Includes/sys_lib.h:141:15" >
+<Type Name="unsigned long " Typedef="UDINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="eprom_len" Pos= "D:/Vagez/x20ost/Temp/Includes/sys_lib.h:142:15" >
+<Type Name="unsigned long " Typedef="UDINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="fix_ram_len" Pos= "D:/Vagez/x20ost/Temp/Includes/sys_lib.h:143:15" >
+<Type Name="unsigned long " Typedef="UDINT" Kind="2" > </Type>
+</Elem>
+</Type>
+</Sym>
+<Sym Name="RTCGetTime" Pos="D:/Vagez/x20ost/Logical/bnrmain/bnrmain.c:20:21" Scope="global" >
+<Type Name="struct RTCtime_typ " Typedef="RTCtime_typ" Kind="7"  Pos= "D:/Vagez/x20ost/Temp/Includes/sys_lib.h:117:16" > <Elem Name="year" Pos= "D:/Vagez/x20ost/Temp/Includes/sys_lib.h:119:22" >
+<Type Name="unsigned short " Typedef="UINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="month" Pos= "D:/Vagez/x20ost/Temp/Includes/sys_lib.h:120:22" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="day" Pos= "D:/Vagez/x20ost/Temp/Includes/sys_lib.h:121:22" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="reserve" Pos= "D:/Vagez/x20ost/Temp/Includes/sys_lib.h:123:22" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="hour" Pos= "D:/Vagez/x20ost/Temp/Includes/sys_lib.h:124:22" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="minute" Pos= "D:/Vagez/x20ost/Temp/Includes/sys_lib.h:125:22" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="second" Pos= "D:/Vagez/x20ost/Temp/Includes/sys_lib.h:126:22" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="millisec" Pos= "D:/Vagez/x20ost/Temp/Includes/sys_lib.h:128:22" >
+<Type Name="unsigned short " Typedef="UINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="microsec" Pos= "D:/Vagez/x20ost/Temp/Includes/sys_lib.h:129:22" >
+<Type Name="unsigned short " Typedef="UINT" Kind="2" > </Type>
+</Elem>
+</Type>
+</Sym>
+<Sym Name="RTCSetTime" Pos="D:/Vagez/x20ost/Logical/bnrmain/bnrmain.c:20:33" Scope="global" >
+<Type Name="struct RTCtime_typ " Typedef="RTCtime_typ" Kind="7"  Pos= "D:/Vagez/x20ost/Temp/Includes/sys_lib.h:117:16" > <Elem Name="year" Pos= "D:/Vagez/x20ost/Temp/Includes/sys_lib.h:119:22" >
+<Type Name="unsigned short " Typedef="UINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="month" Pos= "D:/Vagez/x20ost/Temp/Includes/sys_lib.h:120:22" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="day" Pos= "D:/Vagez/x20ost/Temp/Includes/sys_lib.h:121:22" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="reserve" Pos= "D:/Vagez/x20ost/Temp/Includes/sys_lib.h:123:22" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="hour" Pos= "D:/Vagez/x20ost/Temp/Includes/sys_lib.h:124:22" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="minute" Pos= "D:/Vagez/x20ost/Temp/Includes/sys_lib.h:125:22" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="second" Pos= "D:/Vagez/x20ost/Temp/Includes/sys_lib.h:126:22" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="millisec" Pos= "D:/Vagez/x20ost/Temp/Includes/sys_lib.h:128:22" >
+<Type Name="unsigned short " Typedef="UINT" Kind="2" > </Type>
+</Elem>
+<Elem Name="microsec" Pos= "D:/Vagez/x20ost/Temp/Includes/sys_lib.h:129:22" >
+<Type Name="unsigned short " Typedef="UINT" Kind="2" > </Type>
+</Elem>
+</Type>
+</Sym>
+<Sym Name="m_byObsSystemIntState" Pos="D:/Vagez/x20ost/Logical/bnrmain/bnrmain.c:21:15" Scope="global" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Sym>
+<Sym Name="m_dwTicTime" Pos="D:/Vagez/x20ost/Logical/bnrmain/bnrmain.c:22:15" Scope="global" >
+<Type Name="unsigned long " Typedef="UDINT" Kind="2" > </Type>
+</Sym>
+<Sym Name="pProcManager" Pos="D:/Vagez/x20ost/Logical/bnrmain/bnrmain.c:24:15" Scope="global" >
+<Type Name="void *" Typedef="PVOID" Kind="4" > </Type>
+</Sym>
+<Sym Name="pSystem" Pos="D:/Vagez/x20ost/Logical/bnrmain/bnrmain.c:25:15" Scope="global" >
+<Type Name="void *" Typedef="PVOID" Kind="4" > </Type>
+</Sym>
+<Sym Name="pDebMsg" Pos="D:/Vagez/x20ost/Logical/bnrmain/bnrmain.c:26:15" Scope="global" >
+<Type Name="void *" Typedef="PVOID" Kind="4" > </Type>
+</Sym>
+<Sym Name="nMemSize" Pos="D:/Vagez/x20ost/Logical/bnrmain/bnrmain.c:27:15" Scope="global" >
+<Type Name="unsigned long " Typedef="UDINT" Kind="2" > </Type>
+</Sym>
+<Sym Name="pvMEM" Pos="D:/Vagez/x20ost/Logical/bnrmain/bnrmain.c:28:15" Scope="global" >
+<Type Name="void *" Typedef="PVOID" Kind="4" > </Type>
+</Sym>
+<Sym Name="nCTT" Pos="D:/Vagez/x20ost/Logical/bnrmain/bnrmain.c:45:13" Scope="global" >
+<Type Name="signed short " Typedef="INT" Kind="2" > </Type>
+</Sym>
+<Sym Name="nYear" Pos="D:/Vagez/x20ost/Logical/bnrmain/bnrmain.c:181:14" Scope="global" >
+<Type Name="unsigned char " Typedef="USINT" Kind="2" > </Type>
+</Sym>
+<Sym Name="nQMem" Pos="D:/Vagez/x20ost/Logical/bnrmain/bnrmain.c:301:13" Scope="global" >
+<Type Name="signed short " Typedef="INT" Kind="2" > </Type>
+</Sym>
+</Declarations>

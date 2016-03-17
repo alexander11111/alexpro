@@ -1,0 +1,15 @@
+D:/Vagez/x20ost/Logical/bnrmain/bnrconst.h:907:6: warning: no newline at end of file
+D:/Vagez/x20ost/Logical/bnrmain/bnrsystemtimer.h:28:1: error: '##' failed: concatenation is not a valid token
+D:/Vagez/x20ost/Logical/bnrmain/bnrsystemtimer.h:28:1: error: '##' failed: concatenation is not a valid token
+D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:38:1: error: '##' failed: concatenation is not a valid token
+D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:38:1: error: '##' failed: concatenation is not a valid token
+D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:65:1: error: '##' failed: concatenation is not a valid token
+D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:65:1: error: '##' failed: concatenation is not a valid token
+D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.c:246:1: error: '##' failed: concatenation is not a valid token
+D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.c:246:1: error: '##' failed: concatenation is not a valid token
+D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.c:246:1: error: '##' failed: concatenation is not a valid token
+D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.c:139:6: error: undefined identifier 'strcpy'
+D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.c:179:2: error: undefined identifier 'memcpy'
+D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.c:181:9: error: return expression in void function
+D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.c:194:2: error: undefined identifier 'memcpy'
+D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.c:196:9: error: return expression in void function

@@ -1,0 +1,5 @@
+AsFw	 "$(AS_PROJECT_PATH)/Physical/$(AS_CONFIGURATION)/Hardware.hc" -v V1.00.0 -S PLC1 -o "$(AS_CPU_PATH)/asfw.br" -T SGC -B V2.00 -P "$(AS_PROJECT_PATH)" -zip -s PLC1 -firmware
+sysconf	 -sysconf -S PLC1 -o "$(AS_CPU_PATH)/sysconf.br" -T SGC -B V2.00 -P "$(AS_PROJECT_PATH)" -s PLC1
+iomap	 -m "$(AS_CPU_PATH)/ConfigInfo.cfi" -g "$(AS_TEMP_PATH)/Objects/Declarations.lst" -x "$(AS_CPU_PATH)/ChannelConfiguration.xml" -v V1.00.0 -f "$(AS_CPU_PATH)/Global.ofs" -o "$(AS_CPU_PATH)/iomap.br" -T SGC -B V2.00 -P "$(AS_PROJECT_PATH)" -s PLC1
+AsHwd	 "$(AS_PROJECT_PATH)/Physical/$(AS_CONFIGURATION)/Hardware.hc" -v V1.00.0 -S PLC1 -o "$(AS_CPU_PATH)/ashwd.br" -T SGC -B V2.00 -P "$(AS_PROJECT_PATH)" -zip -s PLC1 -hwd
+arconfig	"$(AS_ACTIVE_CONFIG_PATH)/IoMap.iom"  -c Config1 -arconfig -v V1.00.0 -S PLC1 -o "$(AS_CPU_PATH)/arconfig.br" "$(AS_CPU_PATH)/ChannelConfiguration.xml" -T SGC -B V2.00 -P "$(AS_PROJECT_PATH)" -s PLC1

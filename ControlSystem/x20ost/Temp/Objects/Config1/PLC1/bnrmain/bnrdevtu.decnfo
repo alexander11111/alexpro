@@ -1,0 +1,11 @@
+<Declarations>
+<Sym Name="pGlobalMemoryPointer" Pos="D:/Vagez/x20ost/Logical/bnrmain/typedefs.h:110:14" Scope="global" >
+<Type Name="void **" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/typedefs.h:110:14" > </Type>
+</Sym>
+<Sym Name="dwFL" Pos="D:/Vagez/x20ost/Logical/bnrmain/typedefs.h:111:15" Scope="global" >
+<Type Name="unsigned long " Typedef="UDINT" Kind="2" > </Type>
+</Sym>
+<Sym Name="nTCCH" Pos="D:/Vagez/x20ost/Logical/bnrmain/bnrdevtu.c:65:13" Scope="global" >
+<Type Name="signed short " Typedef="INT" Kind="2" > </Type>
+</Sym>
+</Declarations>

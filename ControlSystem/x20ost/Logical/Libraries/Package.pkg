@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.71.10?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Library" Language="Binary" Description="This library contains function interfaces for IEC 1131-3 conversion functions.">Convert</Object>
+    <Object Type="Library" Language="Binary" Description="This library contains runtime functions for IEC tasks.">Runtime</Object>
+    <Object Type="Library" Language="Binary" Description="This library contains function interfaces for IEC1131-3 operator functions. For the most part, these are mathematical and logical functions.">Operator</Object>
+    <Object Type="Library" Language="Binary" Description="The DataObj library can be used to dynamically create, dynamically delete and copy data objects, etc. ">DataObj</Object>
+    <Object Type="Library" Language="Binary" Description="DM_Lib: ">DM_lib</Object>
+    <Object Type="Library" Language="Binary" Description="The SYS_LIB library contains functions for memory management and operating system manipulation as well as hardware-specific functions.">sys_lib</Object>
+    <Object Type="Library" Language="Binary" Description="Functions are available in the CAN Library for accessing the CAN bus on the B&amp;R 2000 system. ">CAN_Lib</Object>
+    <Object Type="Library" Language="Binary" Description="This library contains FBKs for exchanging data (data stream) via stream sockets (TCP).">AsTCP</Object>
+    <Object Type="Library" Language="Binary" Description="The DVFrame library and the frame driver can be used to exchange data with external devices.">dvframe</Object>
+  </Objects>
+</Package>

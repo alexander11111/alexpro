@@ -1,0 +1,6 @@
+$(AS_PROJECT_PATH)/Logical/bnrmain/bnrflash.c
+$(AS_PROJECT_PATH)/Logical/bnrmain/bnrflash.h
+$(AS_PROJECT_PATH)/Logical/bnrmain/typedefs.h
+$(AS_PROJECT_PATH)/Logical/bnrmain/bnrconst.h
+$(AS_PROJECT_PATH)/Logical/bnrmain/bnrdbout.h
+$(AS_PROJECT_PATH)/Logical/bnrmain/bnrmessage.h

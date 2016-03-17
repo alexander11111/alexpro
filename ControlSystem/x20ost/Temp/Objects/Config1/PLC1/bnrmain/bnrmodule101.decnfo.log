@@ -1,0 +1,19 @@
+D:/Vagez/x20ost/Logical/bnrmain/bnrconst.h:907:6: warning: no newline at end of file
+D:/Vagez/x20ost/Logical/bnrmain/bnrsystemtimer.h:28:1: error: '##' failed: concatenation is not a valid token
+D:/Vagez/x20ost/Logical/bnrmain/bnrsystemtimer.h:28:1: error: '##' failed: concatenation is not a valid token
+D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:38:1: error: '##' failed: concatenation is not a valid token
+D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:38:1: error: '##' failed: concatenation is not a valid token
+D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:65:1: error: '##' failed: concatenation is not a valid token
+D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:65:1: error: '##' failed: concatenation is not a valid token
+D:/Vagez/x20ost/Logical/bnrmain/bnrregedit.h:44:1: error: '##' failed: concatenation is not a valid token
+D:/Vagez/x20ost/Logical/bnrmain/bnrregedit.h:44:1: error: '##' failed: concatenation is not a valid token
+D:/Vagez/x20ost/Logical/bnrmain/bnrmodule101.h:51:1: error: '##' failed: concatenation is not a valid token
+D:/Vagez/x20ost/Logical/bnrmain/bnrmodule101.h:51:1: error: '##' failed: concatenation is not a valid token
+D:/Vagez/x20ost/Logical/bnrmain/bnrmodule101.c:1096:1: error: '##' failed: concatenation is not a valid token
+D:/Vagez/x20ost/Logical/bnrmain/bnrmodule101.c:1096:1: error: '##' failed: concatenation is not a valid token
+D:/Vagez/x20ost/Logical/bnrmain/bnrmodule101.c:1096:1: error: '##' failed: concatenation is not a valid token
+D:/Vagez/x20ost/Logical/bnrmain/bnrmodule101.c:1096:1: error: '##' failed: concatenation is not a valid token
+D:/Vagez/x20ost/Logical/bnrmain/bnrmodule101.c:306:6: error: undefined identifier 'memcpy'
+D:/Vagez/x20ost/Logical/bnrmain/bnrmodule101.c:416:2: error: undefined identifier 'memset'
+D:/Vagez/x20ost/Logical/bnrmain/bnrmodule101.c:668:7: error: undefined identifier 'memcpy'
+D:/Vagez/x20ost/Logical/bnrmain/bnrmodule101.c:679:7: error: undefined identifier 'memcpy'

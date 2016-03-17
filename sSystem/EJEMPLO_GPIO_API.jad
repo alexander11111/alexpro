@@ -1,0 +1,7 @@
+MIDlet-Version: 1.0.0
+MIDlet-Vendor: Midlet Suite Vendor
+MIDlet-Jar-URL: EJEMPLOGPIOAPI.jar
+MicroEdition-Configuration: CLDC-1.1
+MIDlet-1: main,,src.CMain
+MicroEdition-Profile: IMP-NG
+MIDlet-Name: EJEMPLOGPIOAPI Midlet Suite

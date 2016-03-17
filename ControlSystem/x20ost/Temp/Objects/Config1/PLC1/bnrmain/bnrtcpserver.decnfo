@@ -1,0 +1,170 @@
+<Declarations>
+<Sym Name="pGlobalMemoryPointer" Pos="D:/Vagez/x20ost/Logical/bnrmain/typedefs.h:110:14" Scope="global" >
+<Type Name="void **" Kind="4"  Pos= "D:/Vagez/x20ost/Logical/bnrmain/typedefs.h:110:14" > </Type>
+</Sym>
+<Sym Name="dwFL" Pos="D:/Vagez/x20ost/Logical/bnrmain/typedefs.h:111:15" Scope="global" >
+<Type Name="unsigned long " Typedef="UDINT" Kind="2" > </Type>
+</Sym>
+<Sym Name="iCreateTcp1" Pos="D:/Vagez/x20ost/Logical/bnrmain/bnrtcpserver.c:124:14" Scope="global" >
+<Type Name="unsigned short " Typedef="UINT" Kind="2" > </Type>
+</Sym>
+<Sym Name="sServer" Pos="D:/Vagez/x20ost/Logical/bnrmain/bnrtcpserver.c:158:23" Scope="global" >
+<Type Name="struct TcpServer " Typedef="TcpServer" Kind="7"  Pos= "D:/Vagez/x20ost/Temp/Includes/AsTCP.h:134:16" > <Elem Name="ident" Pos= "D:/Vagez/x20ost/Temp/Includes/AsTCP.h:137:16" >
+<Type Name="unsigned long " Kind="2" > </Type>
+</Elem>
+<Elem Name="backlog" Pos= "D:/Vagez/x20ost/Temp/Includes/AsTCP.h:138:16" >
+<Type Name="unsigned long " Kind="2" > </Type>
+</Elem>
+<Elem Name="pIpAddr" Pos= "D:/Vagez/x20ost/Temp/Includes/AsTCP.h:139:16" >
+<Type Name="unsigned long " Kind="2" > </Type>
+</Elem>
+<Elem Name="status" Pos= "D:/Vagez/x20ost/Temp/Includes/AsTCP.h:141:17" >
+<Type Name="unsigned short " Kind="2" > </Type>
+</Elem>
+<Elem Name="identclnt" Pos= "D:/Vagez/x20ost/Temp/Includes/AsTCP.h:142:16" >
+<Type Name="unsigned long " Kind="2" > </Type>
+</Elem>
+<Elem Name="portclnt" Pos= "D:/Vagez/x20ost/Temp/Includes/AsTCP.h:143:17" >
+<Type Name="unsigned short " Kind="2" > </Type>
+</Elem>
+<Elem Name="i_state" Pos= "D:/Vagez/x20ost/Temp/Includes/AsTCP.h:145:17" >
+<Type Name="unsigned short " Kind="2" > </Type>
+</Elem>
+<Elem Name="i_result" Pos= "D:/Vagez/x20ost/Temp/Includes/AsTCP.h:146:17" >
+<Type Name="unsigned short " Kind="2" > </Type>
+</Elem>
+<Elem Name="i_tmp" Pos= "D:/Vagez/x20ost/Temp/Includes/AsTCP.h:147:16" >
+<Type Name="unsigned long " Kind="2" > </Type>
+</Elem>
+<Elem Name="enable" Pos= "D:/Vagez/x20ost/Temp/Includes/AsTCP.h:149:9" >
+<Type Name="bool " Typedef="plcbit" Kind="2" > </Type>
+</Elem>
+</Type>
+</Sym>
+<Sym Name="sRecc" Pos="D:/Vagez/x20ost/Logical/bnrmain/bnrtcpserver.c:159:21" Scope="global" >
+<Type Name="struct TcpRecv " Typedef="TcpRecv" Kind="7"  Pos= "D:/Vagez/x20ost/Temp/Includes/AsTCP.h:201:16" > <Elem Name="ident" Pos= "D:/Vagez/x20ost/Temp/Includes/AsTCP.h:204:16" >
+<Type Name="unsigned long " Kind="2" > </Type>
+</Elem>
+<Elem Name="pData" Pos= "D:/Vagez/x20ost/Temp/Includes/AsTCP.h:205:16" >
+<Type Name="unsigned long " Kind="2" > </Type>
+</Elem>
+<Elem Name="datamax" Pos= "D:/Vagez/x20ost/Temp/Includes/AsTCP.h:206:16" >
+<Type Name="unsigned long " Kind="2" > </Type>
+</Elem>
+<Elem Name="flags" Pos= "D:/Vagez/x20ost/Temp/Includes/AsTCP.h:207:16" >
+<Type Name="unsigned long " Kind="2" > </Type>
+</Elem>
+<Elem Name="status" Pos= "D:/Vagez/x20ost/Temp/Includes/AsTCP.h:209:17" >
+<Type Name="unsigned short " Kind="2" > </Type>
+</Elem>
+<Elem Name="recvlen" Pos= "D:/Vagez/x20ost/Temp/Includes/AsTCP.h:210:16" >
+<Type Name="unsigned long " Kind="2" > </Type>
+</Elem>
+<Elem Name="i_state" Pos= "D:/Vagez/x20ost/Temp/Includes/AsTCP.h:212:17" >
+<Type Name="unsigned short " Kind="2" > </Type>
+</Elem>
+<Elem Name="i_result" Pos= "D:/Vagez/x20ost/Temp/Includes/AsTCP.h:213:17" >
+<Type Name="unsigned short " Kind="2" > </Type>
+</Elem>
+<Elem Name="i_tmp" Pos= "D:/Vagez/x20ost/Temp/Includes/AsTCP.h:214:16" >
+<Type Name="unsigned long " Kind="2" > </Type>
+</Elem>
+<Elem Name="enable" Pos= "D:/Vagez/x20ost/Temp/Includes/AsTCP.h:216:9" >
+<Type Name="bool " Typedef="plcbit" Kind="2" > </Type>
+</Elem>
+</Type>
+</Sym>
+<Sym Name="sOpen" Pos="D:/Vagez/x20ost/Logical/bnrmain/bnrtcpserver.c:205:21" Scope="global" >
+<Type Name="struct TcpOpen " Typedef="TcpOpen" Kind="7"  Pos= "D:/Vagez/x20ost/Temp/Includes/AsTCP.h:117:16" > <Elem Name="pIfAddr" Pos= "D:/Vagez/x20ost/Temp/Includes/AsTCP.h:120:16" >
+<Type Name="unsigned long " Kind="2" > </Type>
+</Elem>
+<Elem Name="port" Pos= "D:/Vagez/x20ost/Temp/Includes/AsTCP.h:121:17" >
+<Type Name="unsigned short " Kind="2" > </Type>
+</Elem>
+<Elem Name="options" Pos= "D:/Vagez/x20ost/Temp/Includes/AsTCP.h:122:16" >
+<Type Name="unsigned long " Kind="2" > </Type>
+</Elem>
+<Elem Name="status" Pos= "D:/Vagez/x20ost/Temp/Includes/AsTCP.h:124:17" >
+<Type Name="unsigned short " Kind="2" > </Type>
+</Elem>
+<Elem Name="ident" Pos= "D:/Vagez/x20ost/Temp/Includes/AsTCP.h:125:16" >
+<Type Name="unsigned long " Kind="2" > </Type>
+</Elem>
+<Elem Name="i_state" Pos= "D:/Vagez/x20ost/Temp/Includes/AsTCP.h:127:17" >
+<Type Name="unsigned short " Kind="2" > </Type>
+</Elem>
+<Elem Name="i_result" Pos= "D:/Vagez/x20ost/Temp/Includes/AsTCP.h:128:17" >
+<Type Name="unsigned short " Kind="2" > </Type>
+</Elem>
+<Elem Name="i_tmp" Pos= "D:/Vagez/x20ost/Temp/Includes/AsTCP.h:129:16" >
+<Type Name="unsigned long " Kind="2" > </Type>
+</Elem>
+<Elem Name="enable" Pos= "D:/Vagez/x20ost/Temp/Includes/AsTCP.h:131:9" >
+<Type Name="bool " Typedef="plcbit" Kind="2" > </Type>
+</Elem>
+</Type>
+</Sym>
+<Sym Name="iListen" Pos="D:/Vagez/x20ost/Logical/bnrmain/bnrtcpserver.c:206:13" Scope="global" >
+<Type Name="signed short " Typedef="INT" Kind="2" > </Type>
+</Sym>
+<Sym Name="sSend" Pos="D:/Vagez/x20ost/Logical/bnrmain/bnrtcpserver.c:226:21" Scope="global" >
+<Type Name="struct TcpSend " Typedef="TcpSend" Kind="7"  Pos= "D:/Vagez/x20ost/Temp/Includes/AsTCP.h:183:16" > <Elem Name="ident" Pos= "D:/Vagez/x20ost/Temp/Includes/AsTCP.h:186:16" >
+<Type Name="unsigned long " Kind="2" > </Type>
+</Elem>
+<Elem Name="pData" Pos= "D:/Vagez/x20ost/Temp/Includes/AsTCP.h:187:16" >
+<Type Name="unsigned long " Kind="2" > </Type>
+</Elem>
+<Elem Name="datalen" Pos= "D:/Vagez/x20ost/Temp/Includes/AsTCP.h:188:16" >
+<Type Name="unsigned long " Kind="2" > </Type>
+</Elem>
+<Elem Name="flags" Pos= "D:/Vagez/x20ost/Temp/Includes/AsTCP.h:189:16" >
+<Type Name="unsigned long " Kind="2" > </Type>
+</Elem>
+<Elem Name="status" Pos= "D:/Vagez/x20ost/Temp/Includes/AsTCP.h:191:17" >
+<Type Name="unsigned short " Kind="2" > </Type>
+</Elem>
+<Elem Name="sentlen" Pos= "D:/Vagez/x20ost/Temp/Includes/AsTCP.h:192:16" >
+<Type Name="unsigned long " Kind="2" > </Type>
+</Elem>
+<Elem Name="i_state" Pos= "D:/Vagez/x20ost/Temp/Includes/AsTCP.h:194:17" >
+<Type Name="unsigned short " Kind="2" > </Type>
+</Elem>
+<Elem Name="i_result" Pos= "D:/Vagez/x20ost/Temp/Includes/AsTCP.h:195:17" >
+<Type Name="unsigned short " Kind="2" > </Type>
+</Elem>
+<Elem Name="i_tmp" Pos= "D:/Vagez/x20ost/Temp/Includes/AsTCP.h:196:16" >
+<Type Name="unsigned long " Kind="2" > </Type>
+</Elem>
+<Elem Name="enable" Pos= "D:/Vagez/x20ost/Temp/Includes/AsTCP.h:198:9" >
+<Type Name="bool " Typedef="plcbit" Kind="2" > </Type>
+</Elem>
+</Type>
+</Sym>
+<Sym Name="iCTcpSrvVal" Pos="D:/Vagez/x20ost/Logical/bnrmain/bnrtcpserver.c:227:13" Scope="global" >
+<Type Name="signed short " Typedef="INT" Kind="2" > </Type>
+</Sym>
+<Sym Name="iCTcpSendCh" Pos="D:/Vagez/x20ost/Logical/bnrmain/bnrtcpserver.c:227:25" Scope="global" >
+<Type Name="signed short " Typedef="INT" Kind="2" > </Type>
+</Sym>
+<Sym Name="iPSend" Pos="D:/Vagez/x20ost/Logical/bnrmain/bnrtcpserver.c:254:13" Scope="global" >
+<Type Name="signed short " Typedef="INT" Kind="2" > </Type>
+</Sym>
+<Sym Name="iCTcpInData" Pos="D:/Vagez/x20ost/Logical/bnrmain/bnrtcpserver.c:267:13" Scope="global" >
+<Type Name="signed short " Typedef="INT" Kind="2" > </Type>
+</Sym>
+<Sym Name="nReceiveThreadTcp" Pos="D:/Vagez/x20ost/Logical/bnrmain/bnrtcpserver.c:286:13" Scope="global" >
+<Type Name="signed short " Typedef="INT" Kind="2" > </Type>
+</Sym>
+<Sym Name="nSendThreadTcp" Pos="D:/Vagez/x20ost/Logical/bnrmain/bnrtcpserver.c:286:31" Scope="global" >
+<Type Name="signed short " Typedef="INT" Kind="2" > </Type>
+</Sym>
+<Sym Name="nSNDUR" Pos="D:/Vagez/x20ost/Logical/bnrmain/bnrtcpserver.c:286:46" Scope="global" >
+<Type Name="signed short " Typedef="INT" Kind="2" > </Type>
+</Sym>
+<Sym Name="nCheckOpenTcp" Pos="D:/Vagez/x20ost/Logical/bnrmain/bnrtcpserver.c:304:13" Scope="global" >
+<Type Name="signed short " Typedef="INT" Kind="2" > </Type>
+</Sym>
+<Sym Name="nCheckSendCheck" Pos="D:/Vagez/x20ost/Logical/bnrmain/bnrtcpserver.c:304:27" Scope="global" >
+<Type Name="signed short " Typedef="INT" Kind="2" > </Type>
+</Sym>
+</Declarations>

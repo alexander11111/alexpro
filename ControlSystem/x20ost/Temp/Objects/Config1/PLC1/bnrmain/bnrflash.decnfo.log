@@ -1,0 +1,12 @@
+D:/Vagez/x20ost/Logical/bnrmain/bnrconst.h:907:6: warning: no newline at end of file
+D:/Vagez/x20ost/Logical/bnrmain/bnrflash.h:141:1: error: '##' failed: concatenation is not a valid token
+D:/Vagez/x20ost/Logical/bnrmain/bnrflash.h:141:1: error: '##' failed: concatenation is not a valid token
+D:/Vagez/x20ost/Logical/bnrmain/bnrflash.c:191:1: error: '##' failed: concatenation is not a valid token
+D:/Vagez/x20ost/Logical/bnrmain/bnrflash.c:191:1: error: '##' failed: concatenation is not a valid token
+D:/Vagez/x20ost/Logical/bnrmain/bnrflash.c:191:1: error: '##' failed: concatenation is not a valid token
+D:/Vagez/x20ost/Logical/bnrmain/bnrflash.c:80:2: error: undefined identifier 'memcpy'
+D:/Vagez/x20ost/Logical/bnrmain/bnrflash.c:81:2: error: undefined identifier 'FPUT'
+D:/Vagez/x20ost/Logical/bnrmain/bnrflash.c:173:2: error: undefined identifier 'strcpy'
+D:/Vagez/x20ost/Logical/bnrmain/bnrflash.c:183:2: error: undefined identifier 'memset'
+D:/Vagez/x20ost/Logical/bnrmain/bnrflash.c:184:2: error: undefined identifier 'memset'
+D:/Vagez/x20ost/Logical/bnrmain/bnrflash.c:185:2: error: undefined identifier 'memset'

@@ -1,0 +1,5 @@
+$(AS_PROJECT_PATH)/Logical/bnrmain/single.c
+$(AS_PROJECT_PATH)/Logical/bnrmain/single.h
+$(AS_PROJECT_PATH)/Logical/bnrmain/typedefs.h
+$(AS_PROJECT_PATH)/Logical/bnrmain/bnrconst.h
+$(AS_PROJECT_PATH)/Logical/bnrmain/bnrdbout.h

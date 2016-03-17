@@ -1,0 +1,576 @@
+/********************************************************************
+ * COPYRIGHT -- Kontora
+ ********************************************************************
+ * Program: bnrmain
+ * File: bnrconfig.h
+ * Author: Abramenya
+ * Created: February 04, 2009
+ *******************************************************************/
+#ifndef WIN32
+#include <bur/plctypes.h>
+#endif
+#include "typedefs.h"
+#include "bnrmessage.h"
+/*
+REAL m_rlDy;
+REAL m_rlKp;
+REAL m_rlTn;
+REAL m_rlKw;
+REAL m_rlKfbk;
+INT16 m_rlA;
+	INT16 m_rlYman;
+*/
+#define PID_PARAM 20.0,0.4,6000.0,1.0,1.0,0,0
+IMPORT_STATELIST(STL_LV00_SENS);//2-Out 
+IMPORT_STATELIST(STL_PS00_SENS);//2-Out 
+IMPORT_STATELIST(STL_TM00_SENS);//1-Out 
+IMPORT_STATELIST(STL_LV04_SENS);//1-Out 
+IMPORT_STATELIST(STL_LVN4_SENS);//0-Out 
+IMPORT_STATELIST(STL_PS04_SENS);//1-Out 
+//Digital Sensor Section
+IMPORT_STATELIST(STL_DIGS00_SENS);//12-In 32-Out
+SOUTGATE     nOutGateDF = {0,5100,11,60,0.0,1.0,NO,SDIR,NO,SMART_GTE,SL00,PN00,"п.xxx"};//Lev
+#if MYSYSTEM_ID == 0 
+SINPUTGATE nINGT = {10,{
+{496,100, 0,  95,  20,  70,  30, 70, 1.0,2.0,20000.0 ,1.0,1.0,1000.0 ,550.0 ,0,0,0,0,BASE_GTE,MAX_GTE,0,SL02,PN00,SNS_SMART,P_LEVEL,ST_OPEN,ST_OPEN,SNS_MD_AUTO},
+{484,100, 0,  95,  20,  70,  30, 70, 1.0,2.0,20000.0 ,1.0,1.0,1000.0 ,550.0 ,0,0,0,0,BASE_GTE,MAX_GTE,1,SL02,PN01,SNS_SMART,P_LEVEL,ST_OPEN,ST_OPEN,SNS_MD_AUTO},
+{480, 60, 0,  28,  20,  22,  21, 22, 0.0,3.0,250000.0,1.0,1.0,20400.0,600.0 ,0,0,0,0,BASE_GTE,MAX_GTE,2,SL02,PN02,SNS_SMART,P_PRESS,ST_OPEN,ST_OPEN,SNS_MD_AUTO},
+{485,200, 0, 155, 145, 150, 145,150, 0.0,1.9,90000.0 ,1.0,1.0,1000.0 ,500.0 ,0,0,0,0,BASE_GTE,MAX_GTE,3,SL02,PN03,SNS_SMART,P_TEMPR,ST_OPEN,ST_OPEN,SNS_MD_AUTO},
+{485,200, 0, 155, 145, 150, 145,150, 1.0,1.0,45000.0 ,1.0,1.0,1000.0 ,550.0 ,0,0,0,0,BASE_GTE,MAX_GTE,4,SL02,PN04,SNS_SMART,P_TEMPR,ST_OPEN,ST_OPEN,SNS_MD_AUTO},
+{496,200, 0, 195, 185, 190, 185,190, 1.0,1.0,45000.0 ,1.0,1.0,1000.0 ,550.0 ,0,0,0,0,BASE_GTE,MAX_GTE,5,SL02,PN05,SNS_IDLES,P_TEMPR,ST_OPEN,ST_OPEN,SNS_MD_AUTO},
+{496,200, 0, 195, 185, 190, 185,190, 0.0,1.0,90000.0 ,1.0,1.0,1000.0 ,500.0 ,0,0,0,0,BASE_GTE,MAX_GTE,6,SL02,PN06,SNS_SMART,P_TEMPR,ST_OPEN,ST_OPEN,SNS_MD_AUTO},
+{496,200, 0, 195, 185, 190, 185,190, 1.0,1.0,45000.0 ,1.0,1.0,1000.0 ,550.0 ,0,0,0,0,BASE_GTE,MAX_GTE,7,SL02,PN07,SNS_SMART,P_TEMPR,ST_OPEN,ST_OPEN,SNS_MD_AUTO},
+{485,200, 0, 155, 145, 150, 145,150, 1.0,1.0,45000.0 ,1.0,1.0,1000.0 ,550.0 ,0,0,0,0,BASE_GTE,MAX_GTE,8,SL03,PN00,SNS_SMART,P_TEMPR,ST_OPEN,ST_OPEN,SNS_MD_AUTO},
+{496,200, 0, 195, 185, 190, 185,190, 1.0,1.0,45000.0 ,1.0,1.0,1000.0 ,550.0 ,0,0,0,0,BASE_GTE,MAX_GTE,9,SL03,PN01,SNS_SMART,P_TEMPR,ST_OPEN,ST_OPEN,SNS_MD_AUTO},
+}};
+SOUTPUTGATE nOTGT = {10,{
+{0,5100,10,30,0.0,0.4,NZ,SDIR,0,SMART_GTE,SL04,PN02,"п.812/1"},//Lev LE1 RP4
+{0,5100,15,30,0.0,0.4,NZ,SINV,0,SMART_GTE,SL04,PN03,"п.812/2"},//Lev LE1 RP3
+{0,5100,20,30,0.2,1.0,NO,SDIR,0,SMART_GTE,SL04,PN00,"п.811/1"},//Prs PE1 RP2
+{0,5100,25,30,0.2,0.8,NZ,SINV,0,SMART_GTE,SL04,PN01,"п.811/2"},//Prs PE1 RP1
+{0,5100,30,30,0.2,1.0,NZ,SDIR,0,IDLES_GTE,SL04,PN05,"п.814"},  //Tmp TE1 RP5
+{0,5100,35,30,0.2,1.0,NZ,SINV,0,IDLES_GTE,SL04,PN04,"п.815"},  //Tmp TE2 RP6
+{0,5100,40,30,0.2,1.0,NZ,SDIR,0,IDLES_GTE,SL04,PN06,"п.813"},  //Tmp TE4 RP8
+{0,5100,45,30,0.0,1.0,NO,SDIR,0,IDLES_GTE,SL05,PN00,"п.854"},  //Tmp TE5 RP10
+{0,5100,50,30,0.0,1.0,NO,SDIR,0,IDLES_GTE,SL05,PN01,"п.855"},  //Tmp TE6 RP9
+{0,5100,55,30,0.2,1.0,NZ,SDIR,0,IDLES_GTE,SL04,PN07,"п.511"},  //Tmp TE7 RP7
+}};
+SSOFTSWITCHTABLE  nSoftSwitchTable=
+{
+ 0,"Switching Table For System AC-1",1,
+ {
+	//Switching For Direction 0
+	{
+      0,0,11,&nINGT,&nOTGT,
+	  {
+		{0 ,&nINGT.mIn[1], STL_LV00_SENS, SWC_CMD_SMR_CON,  TRUE, 1,{&nOTGT.mOut[0]}}, //LE
+		{1 ,&nINGT.mIn[1], STL_LV00_SENS, SWC_CMD_SMR_CON,  TRUE, 1,{&nOTGT.mOut[1]}}, //LE
+		{2 ,&nINGT.mIn[2], STL_PS00_SENS, SWC_CMD_SMR_CON,  TRUE, 1,{&nOTGT.mOut[2]}}, //PE1 Out0
+		{3 ,&nINGT.mIn[2], STL_PS00_SENS, SWC_CMD_SMR_CON,  TRUE, 1,{&nOTGT.mOut[3]}}, //PE1 Out1
+		{4 ,&nINGT.mIn[3], STL_TM00_SENS, SWC_CMD_SMR_CON,  TRUE, 1,{&nOTGT.mOut[4]}}, //TE1           
+		{5 ,&nINGT.mIn[4], STL_TM00_SENS, SWC_CMD_SMR_CON,  TRUE, 1,{&nOTGT.mOut[5]}}, //TE2
+		{6 ,&nINGT.mIn[5], STL_TM00_SENS, SWC_CMD_IDL_CON,  TRUE, 1,{&nOutGateDF}},    //TE3
+		{7 ,&nINGT.mIn[6], STL_TM00_SENS, SWC_CMD_SMR_CON,  TRUE, 1,{&nOTGT.mOut[6]}}, //TE4
+		{8 ,&nINGT.mIn[7], STL_TM00_SENS, SWC_CMD_SMR_CON,  TRUE, 1,{&nOTGT.mOut[7]}}, //TE5
+		{9 ,&nINGT.mIn[8], STL_TM00_SENS, SWC_CMD_SMR_CON,  TRUE, 1,{&nOTGT.mOut[8]}}, //TE6
+		{10,&nINGT.mIn[9], STL_TM00_SENS, SWC_CMD_SMR_CON,  TRUE, 1,{&nOTGT.mOut[9]}}, //TE7
+	  }
+	},
+	//Switching For Direction 1
+ }
+};
+#elif MYSYSTEM_ID == 1
+SINPUTGATE nINGT = {10,{
+{492,100, 0,  95,  20,  70,  30, 70, 1.0,2.0,20000.0 ,1.0,1.0,1000.0 ,550.0 ,0,0,0,0, BASE_GTE,MAX_GTE,0,SL02,PN00,SNS_SMART,P_LEVEL,ST_OPEN,ST_OPEN,SNS_MD_AUTO},
+{492,100, 0,  95,  20,  70,  30, 70, 1.0,2.0,20000.0 ,1.0,1.0,1000.0 ,550.0 ,0,0,0,0, BASE_GTE,MAX_GTE,1,SL02,PN01,SNS_SMART,P_LEVEL,ST_OPEN,ST_INIT,SNS_MD_AUTO},
+{489, 60, 0,  28,  20,  22,  21, 22, 0.0,3.0,250000.0,1.0,1.0,20400.0,600.0 ,0,0,0,0, BASE_GTE,MAX_GTE,2,SL02,PN02,SNS_SMART,P_PRESS,ST_OPEN,ST_OPEN,SNS_MD_AUTO},
+{489,200, 0, 155, 145, 150, 145,150, 0.0,1.9,90000.0 ,1.0,1.0,1000.0 ,500.0 ,0,0,0,0, BASE_GTE,MAX_GTE,3,SL02,PN03,SNS_SMART,P_TEMPR,ST_OPEN,ST_OPEN,SNS_MD_AUTO},
+{489,200, 0, 155, 145, 150, 145,150, 1.0,1.0,45000.0 ,1.0,1.0,1000.0 ,550.0 ,0,0,0,0, BASE_GTE,MAX_GTE,4,SL02,PN04,SNS_SMART,P_TEMPR,ST_OPEN,ST_OPEN,SNS_MD_AUTO},
+{492,200, 0, 195, 185, 190, 185,190, 1.0,1.0,45000.0 ,1.0,1.0,1000.0 ,550.0 ,0,0,0,0, BASE_GTE,MAX_GTE,5,SL02,PN05,SNS_IDLES,P_TEMPR,ST_OPEN,ST_OPEN,SNS_MD_AUTO},
+{492,200, 0, 195, 185, 190, 185,190, 0.0,1.0,90000.0 ,1.0,1.0,1000.0 ,500.0 ,0,0,0,0, BASE_GTE,MAX_GTE,6,SL02,PN06,SNS_SMART,P_TEMPR,ST_OPEN,ST_OPEN,SNS_MD_AUTO},
+{492,200, 0, 195, 185, 190, 185,190, 1.0,1.0,45000.0 ,1.0,1.0,1000.0 ,550.0 ,0,0,0,0, BASE_GTE,MAX_GTE,7,SL02,PN07,SNS_SMART,P_TEMPR,ST_OPEN,ST_OPEN,SNS_MD_AUTO},
+{489,200, 0, 155, 145, 150, 145,150, 1.0,1.0,45000.0 ,1.0,1.0,1000.0 ,550.0 ,0,0,0,0, BASE_GTE,MAX_GTE,8,SL03,PN00,SNS_SMART,P_TEMPR,ST_OPEN,ST_OPEN,SNS_MD_AUTO},
+{492,200, 0, 195, 185, 190, 185,190, 1.0,1.0,45000.0 ,1.0,1.0,1000.0 ,550.0 ,0,0,0,0, BASE_GTE,MAX_GTE,9,SL03,PN01,SNS_SMART,P_TEMPR,ST_OPEN,ST_OPEN,SNS_MD_AUTO},
+}};
+SOUTPUTGATE nOTGT = {10,{
+{0,5100,10,30,0.0,0.4,NZ,SDIR,0,SMART_GTE,SL04,PN02,"п.812/1"},//Lev LE1 RP4
+{0,5100,15,30,0.0,0.4,NZ,SINV,0,SMART_GTE,SL04,PN03,"п.812/2"},//Lev LE1 RP3
+{0,5100,20,30,0.2,1.0,NO,SDIR,0,SMART_GTE,SL04,PN00,"п.811/1"},//Prs PE1 RP2
+{0,5100,25,30,0.2,0.8,NZ,SINV,0,SMART_GTE,SL04,PN01,"п.811/2"},//Prs PE1 RP1
+{0,5100,30,30,0.2,1.0,NZ,SDIR,0,IDLES_GTE,SL04,PN05,"п.814"},  //Tmp TE1 RP5
+{0,5100,35,30,0.2,1.0,NZ,SINV,0,IDLES_GTE,SL04,PN04,"п.815"},  //Tmp TE2 RP6
+{0,5100,40,30,0.2,1.0,NZ,SDIR,0,IDLES_GTE,SL04,PN06,"п.813"},  //Tmp TE4 RP8
+{0,5100,45,30,0.0,1.0,NO,SDIR,0,IDLES_GTE,SL05,PN00,"п.854"},  //Tmp TE5 RP10
+{0,5100,50,30,0.0,1.0,NO,SDIR,0,IDLES_GTE,SL05,PN01,"п.855"},  //Tmp TE6 RP9
+{0,5100,55,30,0.2,1.0,NZ,SDIR,0,IDLES_GTE,SL04,PN07,"п.511"},  //Tmp TE7 RP7
+}};
+SSOFTSWITCHTABLE  nSoftSwitchTable=
+{
+ 0,"Switching Table For System AC-2",1,
+ {
+	//Switching For Direction 0
+	{
+      0,1,11,&nINGT,&nOTGT,
+	  {//ID  In_Gate     Conn Type     AmOut  Out_Gate_0  Out_Gate_1     
+		{0 ,&nINGT.mIn[0], STL_LV00_SENS, SWC_CMD_SMR_CON, TRUE, 1,{&nOTGT.mOut[0]}},//LE
+		{1 ,&nINGT.mIn[0], STL_LV00_SENS, SWC_CMD_SMR_CON, TRUE, 1,{&nOTGT.mOut[1]}},//LE
+		{2 ,&nINGT.mIn[2], STL_PS00_SENS, SWC_CMD_SMR_CON, TRUE, 1,{&nOTGT.mOut[2]}},//PE
+		{3 ,&nINGT.mIn[2], STL_PS00_SENS, SWC_CMD_SMR_CON, TRUE, 1,{&nOTGT.mOut[3]}},//PE
+		{4 ,&nINGT.mIn[3], STL_TM00_SENS, SWC_CMD_SMR_CON, TRUE, 1,{&nOTGT.mOut[4]}},//TE1           
+		{5 ,&nINGT.mIn[4], STL_TM00_SENS, SWC_CMD_SMR_CON, TRUE, 1,{&nOTGT.mOut[5]}},//TE2
+		{6 ,&nINGT.mIn[5], STL_TM00_SENS, SWC_CMD_IDL_CON, TRUE, 1,{&nOutGateDF}},   //TE3
+		{7 ,&nINGT.mIn[6], STL_TM00_SENS, SWC_CMD_SMR_CON, TRUE, 1,{&nOTGT.mOut[6]}},//TE4
+		{8 ,&nINGT.mIn[7], STL_TM00_SENS, SWC_CMD_SMR_CON, TRUE, 1,{&nOTGT.mOut[7]}},//TE5
+		{9 ,&nINGT.mIn[8], STL_TM00_SENS, SWC_CMD_SMR_CON, TRUE, 1,{&nOTGT.mOut[8]}},//TE6
+		{10,&nINGT.mIn[9], STL_TM00_SENS, SWC_CMD_SMR_CON, TRUE, 1,{&nOTGT.mOut[9]}},//TE7
+	  }
+	},
+	//Switching For Direction 1
+ }
+};
+#elif MYSYSTEM_ID == 2 
+SINPUTGATE nINGT = {11,{
+{492,100, 0,  95,  20,  70,  30, 60, 1.0,2.0,20000.0 ,1.0,1.0,1000.0 ,550.0 ,0,0,0,0, BASE_GTE,MAX_GTE, 0,SL02,PN00,SNS_SMART,P_LEVEL,ST_OPEN,ST_OPEN,SNS_MD_AUTO},
+{492,100, 0,  95,  20,  70,  30, 65, 1.0,2.0,20000.0 ,1.0,1.0,1000.0 ,550.0 ,0,0,0,0, BASE_GTE,MAX_GTE, 1,SL02,PN01,SNS_SMART,P_LEVEL,ST_OPEN,ST_OPEN,SNS_MD_AUTO},
+{492,100, 0,  95,  20,  70,  30, 70, 1.0,2.0,20000.0 ,1.0,1.0,1000.0 ,550.0 ,0,0,0,0, BASE_GTE,MAX_GTE, 2,SL02,PN02,SNS_SMART,P_LEVEL,ST_OPEN,ST_OPEN,SNS_MD_AUTO},
+{489, 60, 0,  28,  20,  22,  21, 22, 0.0,3.0,250000.0,1.0,1.0,20400.0,600.0 ,0,0,0,0, BASE_GTE,MAX_GTE, 3,SL02,PN03,SNS_SMART,P_PRESS,ST_OPEN,ST_OPEN,SNS_MD_AUTO},
+{489,200, 0, 155, 145, 150, 145,150, 0.0,1.9,90000.0 ,1.0,1.0,1000.0 ,500.0 ,0,0,0,0, BASE_GTE,MAX_GTE, 4,SL02,PN04,SNS_SMART,P_TEMPR,ST_OPEN,ST_OPEN,SNS_MD_AUTO},
+{489,200, 0, 155, 145, 150, 145,150, 1.0,1.0,45000.0 ,1.0,1.0,1000.0 ,550.0 ,0,0,0,0, BASE_GTE,MAX_GTE, 5,SL02,PN05,SNS_SMART,P_TEMPR,ST_OPEN,ST_OPEN,SNS_MD_AUTO},
+{492,200, 0, 195, 185, 190, 185,190, 1.0,1.0,45000.0 ,1.0,1.0,1000.0 ,550.0 ,0,0,0,0, BASE_GTE,MAX_GTE, 6,SL02,PN06,SNS_IDLES,P_TEMPR,ST_OPEN,ST_OPEN,SNS_MD_AUTO},
+{492,200, 0, 195, 185, 190, 185,190, 0.0,1.0,90000.0 ,1.0,1.0,1000.0 ,500.0 ,0,0,0,0, BASE_GTE,MAX_GTE, 7,SL02,PN07,SNS_SMART,P_TEMPR,ST_OPEN,ST_OPEN,SNS_MD_AUTO},
+{492,200, 0, 195, 185, 190, 185,190, 1.0,1.0,45000.0 ,1.0,1.0,1000.0 ,550.0 ,0,0,0,0, BASE_GTE,MAX_GTE, 8,SL03,PN00,SNS_SMART,P_TEMPR,ST_OPEN,ST_OPEN,SNS_MD_AUTO},
+{489,200, 0, 155, 145, 150, 145,150, 1.0,1.0,45000.0 ,1.0,1.0,1000.0 ,550.0 ,0,0,0,0, BASE_GTE,MAX_GTE, 9,SL03,PN01,SNS_SMART,P_TEMPR,ST_OPEN,ST_OPEN,SNS_MD_AUTO},
+{492,200, 0, 195, 185, 190, 185,190, 1.0,1.0,45000.0 ,1.0,1.0,1000.0 ,550.0 ,0,0,0,0, BASE_GTE,MAX_GTE,10,SL03,PN02,SNS_SMART,P_TEMPR,ST_OPEN,ST_OPEN,SNS_MD_AUTO},
+}};
+SOUTPUTGATE nOTGT = {10,{
+{0,5100,10,30,0.0,0.4,NZ,SDIR,0,SMART_GTE,SL04,PN02,"п.812/1"},//Lev LE1 RP4
+{0,5100,15,30,0.0,0.4,NZ,SINV,0,SMART_GTE,SL04,PN03,"п.812/2"},//Lev LE1 RP3
+{0,5100,20,30,0.2,1.0,NO,SDIR,0,SMART_GTE,SL04,PN00,"п.811/1"},//Prs PE1 RP2
+{0,5100,25,30,0.2,0.8,NZ,SINV,0,SMART_GTE,SL04,PN01,"п.811/2"},//Prs PE1 RP1
+{0,5100,30,30,0.2,1.0,NZ,SDIR,0,IDLES_GTE,SL04,PN05,"п.814"},  //Tmp TE1 RP5
+{0,5100,35,30,0.2,1.0,NZ,SINV,0,IDLES_GTE,SL04,PN04,"п.815"},  //Tmp TE2 RP6
+{0,5100,40,30,0.2,1.0,NZ,SDIR,0,IDLES_GTE,SL04,PN06,"п.813"},  //Tmp TE4 RP8
+{0,5100,45,30,0.0,1.0,NO,SDIR,0,IDLES_GTE,SL05,PN00,"п.854"},  //Tmp TE5 RP10
+{0,5100,50,30,0.0,1.0,NO,SDIR,0,IDLES_GTE,SL05,PN01,"п.855"},  //Tmp TE6 RP9
+{0,5100,55,30,0.2,1.0,NZ,SDIR,0,IDLES_GTE,SL04,PN07,"п.511"},  //Tmp TE7 RP7
+}};
+SSOFTSWITCHTABLE  nSoftSwitchTable=
+{
+ 0,"Switching Table For System AC-3",1,
+ {
+	//Switching For Direction 0
+	{
+      0,2,11,&nINGT,&nOTGT,
+	  {//ID   SL   PN        Conn Type AmOut  Out_Gate_0  Out_Gate_1      SParam
+		{0 ,&nINGT.mIn[1], STL_LV00_SENS, SWC_CMD_SMR_CON, TRUE, 1,{&nOTGT.mOut[0]}},
+		{1 ,&nINGT.mIn[1], STL_LV00_SENS, SWC_CMD_SMR_CON, TRUE, 1,{&nOTGT.mOut[1]}},
+		{2 ,&nINGT.mIn[3], STL_PS00_SENS, SWC_CMD_SMR_CON, TRUE, 1,{&nOTGT.mOut[2]}},
+		{3 ,&nINGT.mIn[3], STL_PS00_SENS, SWC_CMD_SMR_CON, TRUE, 1,{&nOTGT.mOut[3]}},
+		{4 ,&nINGT.mIn[4], STL_TM00_SENS, SWC_CMD_SMR_CON, TRUE, 1,{&nOTGT.mOut[4]}},
+		{5 ,&nINGT.mIn[5], STL_TM00_SENS, SWC_CMD_SMR_CON, TRUE, 1,{&nOTGT.mOut[5]}},
+		{6 ,&nINGT.mIn[6], STL_TM00_SENS, SWC_CMD_IDL_CON, TRUE, 1,{&nOutGateDF}},
+		{7 ,&nINGT.mIn[7], STL_TM00_SENS, SWC_CMD_SMR_CON, TRUE, 1,{&nOTGT.mOut[6]}},
+		{8 ,&nINGT.mIn[8], STL_TM00_SENS, SWC_CMD_SMR_CON, TRUE, 1,{&nOTGT.mOut[7]}},
+		{9 ,&nINGT.mIn[9], STL_TM00_SENS, SWC_CMD_SMR_CON, TRUE, 1,{&nOTGT.mOut[8]}},
+		{10,&nINGT.mIn[10], STL_TM00_SENS, SWC_CMD_SMR_CON, TRUE, 1,{&nOTGT.mOut[9]}},
+	  }
+	},
+	//Switching For Direction 1
+ }
+};
+#elif MYSYSTEM_ID == 3
+
+SINPUTGATE nINGT = {12,{
+{492,100, 0,  95,  20,  70,  30, 60, 1.0,2.0,20000.0 ,1.0,1.0,1000.0 ,550.0 ,0,0,0,0, BASE_GTE,MAX_GTE, 0,SL02,PN00,SNS_SMART,P_LEVEL,ST_OPEN,ST_OPEN,SNS_MD_AUTO},
+{492,100, 0,  95,  20,  70,  30, 65, 1.0,2.0,20000.0 ,1.0,1.0,1000.0 ,550.0 ,0,0,0,0, BASE_GTE,MAX_GTE, 1,SL02,PN01,SNS_SMART,P_LEVEL,ST_OPEN,ST_OPEN,SNS_MD_AUTO},
+{492,100, 0,  95,  20,  70,  30, 70, 1.0,2.0,20000.0 ,1.0,1.0,1000.0 ,550.0 ,0,0,0,0, BASE_GTE,MAX_GTE, 2,SL02,PN02,SNS_SMART,P_LEVEL,ST_OPEN,ST_OPEN,SNS_MD_AUTO},
+{492,100, 0,  95,  20,  70,  30, 70, 1.0,2.0,20000.0 ,1.0,1.0,1000.0 ,550.0 ,0,0,0,0, BASE_GTE,MAX_GTE, 3,SL02,PN03,SNS_SMART,P_LEVEL,ST_OPEN,ST_OPEN,SNS_MD_AUTO},
+{492,100, 0,  95,  20,  70,  30, 70, 1.0,2.0,20000.0 ,1.0,1.0,1000.0 ,550.0 ,0,0,0,0, BASE_GTE,MAX_GTE, 4,SL02,PN04,SNS_SMART,P_LEVEL,ST_OPEN,ST_OPEN,SNS_MD_AUTO},
+{492,100, 0,  95,  20,  70,  30, 70, 1.0,2.0,20000.0 ,1.0,1.0,1000.0 ,550.0 ,0,0,0,0, BASE_GTE,MAX_GTE, 5,SL02,PN05,SNS_SMART,P_LEVEL,ST_OPEN,ST_OPEN,SNS_MD_AUTO},
+{492,100, 0,  95,  20,  70,  30, 70, 1.0,2.0,20000.0 ,1.0,1.0,1000.0 ,550.0 ,0,0,0,0, BASE_GTE,MAX_GTE, 6,SL02,PN06,SNS_SMART,P_LEVEL,ST_OPEN,ST_OPEN,SNS_MD_AUTO},
+{492,100, 0,  95,  20,  70,  30, 70, 1.0,2.0,20000.0 ,1.0,1.0,1000.0 ,550.0 ,0,0,0,0, BASE_GTE,MAX_GTE, 7,SL02,PN07,SNS_SMART,P_LEVEL,ST_OPEN,ST_OPEN,SNS_MD_AUTO},
+{492, 60, 0,  28,   2,  22,  3,  10, 0.0,3.0,250000.0,1.0,1.0,20400.0,600.0 ,0,0,0,0, BASE_GTE,MAX_GTE, 8,SL03,PN00,SNS_SMART,P_PRESS,ST_OPEN,ST_OPEN,SNS_MD_AUTO},
+{492, 60, 0,  28,   2,  22,  3,  10, 0.0,3.0,250000.0,1.0,1.0,20400.0,600.0 ,0,0,0,0, BASE_GTE,MAX_GTE, 9,SL03,PN01,SNS_SMART,P_PRESS,ST_OPEN,ST_OPEN,SNS_MD_AUTO},
+{492,200, 0, 160,  30, 150,  40, 50, 0.0,1.9,90000.0 ,1.0,1.0,1000.0 ,500.0 ,0,0,0,0, BASE_GTE,MAX_GTE,10,SL03,PN02,SNS_IDLES,P_TEMPR,ST_OPEN,ST_OPEN,SNS_MD_AUTO},
+{492,200, 0, 160,  30, 150,  40, 50, 0.0,1.9,90000.0 ,1.0,1.0,1000.0 ,500.0 ,0,0,0,0, BASE_GTE,MAX_GTE,11,SL03,PN03,SNS_SMART,P_TEMPR,ST_OPEN,ST_OPEN,SNS_MD_AUTO},
+}};
+SOUTPUTGATE nOTGT = {7,{
+{0,5100,10,30,0.2,1.0,NZ,SDIR,0,SMART_GTE,SL04,PN03,"п.820/1"},
+{0,5100,15,30,0.2,1.0,NZ,SINV,0,SMART_GTE,SL04,PN04,"п.820/2"},
+{0,5100,20,30,0.2,1.0,NZ,SDIR,0,SMART_GTE,SL04,PN00,"п.835/1"},
+{0,5100,25,30,0.2,1.0,NZ,SDIR,0,SMART_GTE,SL04,PN01,"п.810/1"},
+{0,5100,30,30,0.2,1.0,NO,SDIR,0,SMART_GTE,SL04,PN02,"п.822/1"},
+{0,5100,35,30,0.2,1.0,NZ,SDIR,0,SMART_GTE,SL04,PN05,"п.841/1"},
+{0,5100,40,30,0.2,1.0,NO,SDIR,0,SMART_GTE,SL04,PN06,"п.841/2"},
+}};
+
+SSOFTSWITCHTABLE  nSoftSwitchTable=
+{
+ 0,"Switching Table For System #4",1,
+ {
+	//Switching For Direction 0
+	{
+      0,3,8,&nINGT,&nOTGT,
+	  {     //Type     Slot PinN   Switch Command    Slot PinN Sens Info 
+		{0,&nINGT.mIn[0], STL_LVN4_SENS, SWC_CMD_SMR_CON,  TRUE, 1,{&nOTGT.mOut[5]}},
+		{1,&nINGT.mIn[2], STL_LVN4_SENS, SWC_CMD_SMR_CON,  TRUE, 1,{&nOTGT.mOut[6]}},
+		{2,&nINGT.mIn[4], STL_LV04_SENS, SWC_CMD_SMR_CON,  TRUE, 1,{&nOTGT.mOut[0]}},
+		{3,&nINGT.mIn[4], STL_LV04_SENS, SWC_CMD_SMR_CON,  TRUE, 1,{&nOTGT.mOut[1]}},
+		{4,&nINGT.mIn[8], STL_PS04_SENS, SWC_CMD_SMR_CON,  TRUE, 1,{&nOTGT.mOut[2]}},
+		{5,&nINGT.mIn[9], STL_PS04_SENS, SWC_CMD_SMR_CON,  TRUE, 1,{&nOTGT.mOut[3]}},
+		{6,&nINGT.mIn[10],STL_TM00_SENS, SWC_CMD_IDL_CON,  TRUE, 1,{&nOutGateDF}},
+		{7,&nINGT.mIn[11],STL_TM00_SENS, SWC_CMD_SMR_CON,  TRUE, 1,{&nOTGT.mOut[4]}},
+	  }
+	},
+ }
+};
+#elif MYSYSTEM_ID == 4
+SDIGGATES nINGT = {10,{
+{8,  {{02,00},{02,01},{02,02},{02,03}, {03, 7},{03, 9},{03,10},{03,11}}}, //DI_02
+{8,  {{02, 4},{02, 5},{02, 6},{02, 7}, {03,12},{03,13},{03,14},{03,15}}}, //DI_02
+{8,  {{02, 8},{02, 9},{02,10},{02,11}, {03,16},{03,17},{03,18},{03,19}}}, //DI_02
+{8,  {{02,12},{02,13},{02,14},{02,15}, {03,20},{03,21},{03,22},{03,23}}}, //DI_02
+{8,  {{02,16},{02,17},{02,18},{02,19}, {03,24},{03,25},{03,26},{03,27}}}, //DI_03
+{8,  {{02,20},{02,21},{02,22},{02,23}, {03,28},{03,29},{03,30},{03,31}}}, //DI_03
+{8,  {{02,24},{02,25},{02,26},{02,27},{02,28},{02,29},{02,30},{02,31}}}, //DI_03
+{8,  {{03,00},{03,01},{03,02},{03,03},{03,04},{03,05},{03,06},{03, 8}}}, //DI_03
+{16, {{04,00},{04,01},{04,02},{04,03},{04,04},{04,05},{04,06},{04,07},{04, 8},{04, 9},{04,10},{04,11},{04,12},{04,13},{04,14},{04,15}}},//DI_04
+{16, {{04,16},{02,17},{04,18},{04,19},{04,20},{04,21},{04,22},{04,23},{04,24},{04,25},{04,26},{04,27},{04,28},{04,29},{04,30},{04,31}}},//DI_04
+}};
+SDIGGATES nOTGT = {10,{
+{4, {{07,01},{07,00},{05,01},{05,00}}}, //DO_05 1
+{4, {{07,02},{07,03},{05,02},{05,03}}}, //DO_05 2 
+{4, {{07,05},{07,04},{05,05},{05,04}}}, //DO_06 3
+{4, {{07,06},{07,07},{05,06},{05,07}}}, //DO_06 4
+{4, {{ 8,01},{ 8,00},{06,01},{06,00}}}, //DO_07 5
+{4, {{ 8,02},{ 8,03},{06,02},{06,03}}}, //DO_07 6
+{4, {{ 8,05},{ 8,04},{06,05},{06,04}}}, //DO_08 7
+{4, {{ 8,06},{ 8,07},{06,06},{06,07}}}, //DO_08 8
+{8, {{ 9,00},{ 9,01},{ 9,02},{ 9,03},{ 9,04},{ 9,05},{ 9,06},{ 9,07}}}, //DO_09 
+{8, {{10,00},{10,01},{10,02},{10,03},{10,04},{10,05},{10,06},{10,07}}}, //DO_10  
+}};
+//Input Gate Section (Model 20in X 8out)
+SSOFTSWITCHTABLE  nSoftSwitchTable=
+{
+ 0,"Switching Table For System #5",1,
+ {
+	//Switching For Direction 0
+	{
+      0,4,10,&nINGT,&nOTGT,
+	  {     //Type     Slot PinN   Switch Command    Slot PinN Sens Info 
+		{0 ,&nINGT.sIoGate[0], STL_DIGS00_SENS, SWC_CMD_LOG_CON, TRUE, 1,{&nOTGT.sIoGate[0]}},
+		{1 ,&nINGT.sIoGate[3], STL_DIGS00_SENS, SWC_CMD_LOG_CON, TRUE, 1,{&nOTGT.sIoGate[3]}},
+		{2 ,&nINGT.sIoGate[1], STL_DIGS00_SENS, SWC_CMD_LOG_CON, TRUE, 1,{&nOTGT.sIoGate[1]}},
+		{3 ,&nINGT.sIoGate[4], STL_DIGS00_SENS, SWC_CMD_LOG_CON, TRUE, 1,{&nOTGT.sIoGate[4]}},
+		{4 ,&nINGT.sIoGate[2], STL_DIGS00_SENS, SWC_CMD_LOG_CON, TRUE, 1,{&nOTGT.sIoGate[2]}},
+		{5 ,&nINGT.sIoGate[5], STL_DIGS00_SENS, SWC_CMD_LOG_CON, TRUE, 1,{&nOTGT.sIoGate[5]}},
+		{6 ,&nINGT.sIoGate[6], STL_DIGS00_SENS, SWC_CMD_LOG_CON, TRUE, 1,{&nOTGT.sIoGate[6]}},
+		{7 ,&nINGT.sIoGate[7], STL_DIGS00_SENS, SWC_CMD_LOG_CON, TRUE, 1,{&nOTGT.sIoGate[7]}},
+		{8 ,&nINGT.sIoGate[8], STL_DIGS00_SENS, SWC_CMD_LOG_CON, TRUE, 1,{&nOTGT.sIoGate[8]}},
+		{9 ,&nINGT.sIoGate[9], STL_DIGS00_SENS, SWC_CMD_LOG_CON, TRUE, 1,{&nOTGT.sIoGate[9]}},
+	  }
+	},
+ }
+};
+#elif MYSYSTEM_ID == 5 
+/*
+//Датчик давления
+typedef struct _tagTPRParam
+{
+	BYTE byID;	
+	BYTE byAmParam; 
+	BYTE byType;
+	BYTE bySlot; 
+	BYTE byPin; 
+	BYTE byAlmState;
+	BYTE byState;
+	WORD wJob;
+	WORD wParam;
+}STPRPARAM;
+*/
+STPRPARAMS nTPR = {2,TPR,{
+{0  ,0  ,TPR ,4, 0, EN_OPEN, PRI_HI, 10, 5},
+{1  ,1  ,TPR ,4, 1, EN_OPEN, PRI_HI, 11, 7},
+}};
+/*
+//Датчик температуры
+typedef struct _tagTTMParam
+{
+	BYTE byID;
+	BYTE byAmParam; 
+	BYTE byType;
+	BYTE bySlot; 
+	BYTE byPin; 
+	BYTE byAlmState;
+	BYTE byState;
+	WORD wJob;
+	WORD wParam;
+}STTMPARAM;
+*/
+STTMPARAMS nTTM = {2,TTM,{
+{2  ,0  ,TTM ,5, 0, EN_OPEN, PRI_HI, 30, 20},
+{3  ,1  ,TTM ,5, 1, EN_OPEN, PRI_HI, 25, 20},
+}};
+/*
+//Счетчики импульсов
+typedef struct _tagTCParam
+{
+	BYTE byID;
+	BYTE byAmParam; 
+	BYTE byType;
+	BYTE bySlot; 
+	BYTE byPin; 
+	BYTE byAlmState;
+	BYTE byState;
+	FLOAT fKoeff;
+	DWORD dwMaxFreq;
+	DWORD dwParam;
+}STCPARAM; 
+*/
+STCPARAMS nTC = {16,TC,{
+{4  ,0  ,TC ,0, 0, EN_OPEN, PRI_HI, 10000,1.23, 11},
+{5  ,1  ,TC ,0, 0, EN_OPEN, PRI_HI, 10000,2.45, 21},
+{6  ,2  ,TC ,0, 0, EN_OPEN, PRI_HI, 10000,3.23, 31},
+{7  ,3  ,TC ,0, 0, EN_OPEN, PRI_HI, 10000,4.23, 41},
+
+{8  ,4  ,TC ,0, 0, EN_OPEN, PRI_HI, 1000 ,5.234, 51},
+{9  ,5  ,TC ,0, 0, EN_OPEN, PRI_HI, 1000 ,6.456, 61},
+{10 ,6  ,TC ,0, 0, EN_OPEN, PRI_HI, 1000 ,7.23, 71},
+{11 ,7  ,TC ,0, 0, EN_OPEN, PRI_HI, 1000 ,8.345, 81},
+
+{12 ,8  ,TC ,0, 0, EN_OPEN, PRI_HI, 1000 ,9.234, 91},
+{13 ,9  ,TC ,0, 0, EN_OPEN, PRI_HI, 1000 ,10.234,101},
+{14 ,10 ,TC ,0, 0, EN_OPEN, PRI_HI, 1000 ,11.23,111},
+{15 ,11 ,TC ,0, 0, EN_OPEN, PRI_HI, 1000 ,12.234,121},
+
+{16 ,12 ,TC ,0, 0, EN_OPEN, PRI_HI, 1000 ,0.345,131112},
+{17 ,13 ,TC ,0, 0, EN_OPEN, PRI_HI, 1000 ,0.145,141112},
+{18 ,14 ,TC ,0, 0, EN_OPEN, PRI_HI, 1000 ,0.235,151112},
+{19 ,15 ,TC ,0, 0, EN_OPEN, PRI_HI, 1000 ,0.134,161112},
+}};
+/*
+//Частотный привод
+typedef struct _tagTFParam
+{
+BYTE byID;
+BYTE byAmParam; 
+BYTE byType;
+BYTE bySlot; //Для задания
+BYTE byPin;  //Для задания
+
+BYTE bySlot1; //Запуск
+BYTE byPin1;  //Запуск
+  
+BYTE bySlot2; //Останов
+BYTE byPin2;  //Останов
+	
+BYTE bySlot3; //Авария1
+BYTE byPin3;  //Авария1
+	  
+BYTE bySlot4; //Авария2
+BYTE byPin4;  //Авария2
+		
+BYTE byStartST;
+BYTE byStopST;
+BYTE byAlST0;
+BYTE byAlST1;
+WORD wTask;
+WORD wParam;
+}STFPARAM;
+*/
+STFPARAMS nTF = {3,TF,{
+{20 ,0  ,TF ,6, 0, 9, 0, 9, 1, 7, 0, 7, 1, 0, 50, 30},
+{21 ,1  ,TF ,6, 1, 9, 2, 9, 3, 7, 2, 7, 3, 0, 60, 20},
+{22 ,1  ,TF ,6, 1, 9, 4, 9, 5, 7, 4, 7, 5, 0, 65, 10},
+}};
+/*
+//Управляемые краны
+typedef struct _tagTKParam
+{
+BYTE byID;
+BYTE byAmParam; 
+BYTE byType;
+BYTE bySlot;  //Запуск
+BYTE byPin;   //Запуск
+BYTE bySlot1; //Останов
+BYTE byPin1;  //Останов
+BYTE byStOP;
+BYTE byStCL;
+BYTE byStMD;
+WORD wMaxOpenTime;
+REAL fJobOpen;
+REAL fOpenState;
+}STKPARAM; 
+*/
+STKPARAMS nTKP = {4,TKP,{
+{23  ,0  ,TKP,10,0 ,10, 1, 0,0,0, 40,0,0},
+{24  ,1  ,TKP,10,2 ,10, 3, 0,0,0, 40,0,0},
+{25  ,2  ,TKP,10,4 ,10, 5, 0,0,0, 40,0,0},
+{26  ,3  ,TKP,10,6 ,10, 7, 0,0,0, 40,0,0},
+}};
+/*
+//Перекидное устройство
+typedef struct _tagPUParam
+{
+BYTE byID;
+BYTE byAmParam; 
+BYTE byType;
+BYTE bySlot; 
+BYTE byPin; 
+BYTE bySlot1; 
+BYTE byPin1; 
+BYTE bySlot2; 
+BYTE byPin2; 
+BYTE bySlot3; 
+BYTE byPin3; 
+WORD wSt0;
+DWORD dwMaxTime;
+DWORD dwOpenTime;
+}SPUPARAM; 
+*/
+SPUPARAMS nTPU = {2,TPU,{
+{27  ,0  ,TPU ,9 ,6 ,7 ,8 ,7 ,9 ,7 ,10, 0, 40, 0},
+{28  ,1  ,TPU ,9 ,7 ,7 ,11,8 ,0 ,8 ,1 , 0, 40, 0},
+}};
+/*
+typedef struct _tagTSParam
+{
+    BYTE byID;
+    BYTE byAmParam; 
+	BYTE byType;
+	BYTE bySlot; 
+	BYTE byPin; 
+	BYTE byState;
+	BYTE byCRemPulce;
+	BYTE byCSetPulce;
+	BYTE byAlarmMode;
+	BYTE byPriority;
+	BYTE byParam;
+}STSPARAM; 
+*/
+STSMPARAMS nTS = {8,TS,{
+{29  ,0 ,TS ,8 ,4 , 0, EN_OPEN, PRI_HI, 5, 5, EN_AL_TO_AL, 0},
+{30  ,1 ,TS ,8 ,5 , 0, EN_OPEN, PRI_HI, 5, 5, EN_AL_TO_AL, 0},
+{31  ,2 ,TS ,8 ,6 , 0, EN_OPEN, PRI_HI, 5, 5, EN_AL_TO_AL, 0},
+{32  ,3 ,TS ,8 ,7 , 0, EN_OPEN, PRI_HI, 5, 5, EN_AL_TO_AL, 0},
+{33  ,4 ,TS ,8 ,8 , 0, EN_OPEN, PRI_HI, 5, 5, EN_AL_TO_AL, 0},
+{34  ,5 ,TS ,8 ,9 , 0, EN_OPEN, PRI_HI, 5, 5, EN_AL_TO_AL, 0},
+{35  ,6 ,TS ,8 ,10, 0, EN_OPEN, PRI_HI, 5, 5, EN_AL_TO_AL, 0},
+{36  ,7 ,TS ,8 ,11, 0, EN_OPEN, PRI_HI, 5, 5, EN_AL_TO_AL, 0},
+}};
+/*
+typedef struct _tagTUParam
+{
+	BYTE byID;
+	BYTE byAmParam; 
+	BYTE byType;
+	BYTE bySlot; 
+	BYTE byPin; 
+	BYTE byAlmState;
+	BYTE byState;
+	BYTE byPulceType;
+    BYTE byCSetPulce;
+	BYTE byParam;
+}STUPARAM; 
+*/
+STUMPARAMS nTU = {8,TU,{
+{37  ,0 ,TU ,9 ,8 , 0, EN_OPEN, EN_DIRECT, 10, 0},
+{38  ,1 ,TU ,9 ,9 , 0, EN_OPEN, EN_DIRECT, 10, 0},
+{39  ,2 ,TU ,9 ,10, 0, EN_OPEN, EN_DIRECT, 10, 0},
+{40  ,3 ,TU ,9 ,11, 0, EN_OPEN, EN_DIRECT, 20, 0},
+{41  ,4 ,TU ,10,8 , 0, EN_OPEN, EN_DIRECT, 20, 0},
+{42  ,5 ,TU ,10,9 , 0, EN_OPEN, EN_DIRECT, 30, 0},
+{43  ,6 ,TU ,10,10, 0, EN_OPEN, EN_DIRECT, 40, 0},
+{44  ,7 ,TU ,10,11, 0, EN_OPEN, EN_DIRECT, 50, 0},
+}};
+/*
+typedef struct _tagTVSParam
+{
+BYTE byID;
+BYTE byAmParam; 
+BYTE byType;
+STVSDATA sDT;
+}STVSPARAM; 
+0000.00000
+0001.00000
+*/
+STVSPARAMS nTVS = {2,TVS,{
+{45  ,0  ,TVS ,0x01,0x02,0x01,0x01,0x01,0x01,0x01,0x01,0x01,0x01,0x01},
+{46  ,1  ,TVS ,0x30,0x30,0x30,0x31,0x2e,0x30,0x31,0x32,0x33,0x34,0x05},
+}};
+//Измеритель уровня
+/*
+typedef struct _tagLVParam
+{
+	BYTE byID;
+	BYTE byAmParam; 
+	BYTE byType;
+	BYTE bySlot; 
+	BYTE byPin; 
+	BYTE bySlot1; 
+	BYTE byPin1; 
+    SLVDATA sDT;
+}SLVPARAM; 
+*/
+SLVPARAMS nLV = {1,TLV,{
+{47  ,0  ,TLV,8 ,2 ,8 ,3,0,95,75,0},
+}};
+/*
+//Модуль слежения
+typedef struct _tagODSData
+{
+	//BYTE byAutoStart;
+	//BYTE byPreStart;
+	//BYTE byStart;
+	//BYTE byStop;
+	//BYTE byFinish;
+    //BYTE byMode;
+    DWORD dwSysState;
+	WORD wJTMPreStart;
+	WORD wTMPreStart;
+	WORD wJTMStart;
+	WORD wTMtart;
+}SOBSMDATA;
+*/
+SOBSPARAMS nOS = {1,TOS,{
+{48  ,0  ,TOS ,0, 0, EN_OPEN, PRI_HI, 0x00000000,10,0,30,0,20,0},
+}};
+
+STIPARAMS nTI = {2,TI,{
+{42  ,0  ,TI ,2, 0, 0, EN_OPEN, PRI_HI, 5, 27000, 25000, 15000, 10000, 5000, 32760, 3000, 0},
+{43  ,1  ,TI ,2, 1, 0, EN_OPEN, PRI_HI, 5, 29000, 28000, 19000, 18000, 5000, 32760, 3276, 0},
+}};
+/*
+&nTPR,&nTTM,&nTC,&nTF,&nTKP,&nTPU,&nTS,&nTU,
+*/
+SSOFTSWITCHTABLE  nSoftSwitchTable=
+{
+ 0,"Switching Table For System #5",1,
+ {
+	//Switching For Direction 0
+	{
+      0,1,11,49,0,0,0,NULL,NULL,
+	  { //Type     Slot PinN   Switch Command    Slot PinN Sens Info 
+		//TI - AI Module 
+	    &nTPR,
+		&nTTM,
+		&nTC,
+		&nTF,
+		&nTKP,
+		&nTPU,
+		&nTS,
+		&nTU,
+		&nTVS,
+		&nLV,
+		&nOS,
+		//&nPL,
+		//&nTM,
+		//&nTAL,
+	  }
+	},
+ }
+};
+#endif
+#ifdef WIN32
+	int SYSxinfo(SYSxinfo_typ *p){return 0;};
+#endif

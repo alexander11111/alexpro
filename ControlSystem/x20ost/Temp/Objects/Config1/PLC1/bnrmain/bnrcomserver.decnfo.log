@@ -1,0 +1,41 @@
+D:/Vagez/x20ost/Logical/bnrmain/bnrconst.h:907:6: warning: no newline at end of file
+D:/Vagez/x20ost/Logical/bnrmain/bnrsystemtimer.h:28:1: error: '##' failed: concatenation is not a valid token
+D:/Vagez/x20ost/Logical/bnrmain/bnrsystemtimer.h:28:1: error: '##' failed: concatenation is not a valid token
+D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:38:1: error: '##' failed: concatenation is not a valid token
+D:/Vagez/x20ost/Logical/bnrmain/bnrmytimer.h:38:1: error: '##' failed: concatenation is not a valid token
+D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:65:1: error: '##' failed: concatenation is not a valid token
+D:/Vagez/x20ost/Logical/bnrmain/bnrcyclicsystem.h:65:1: error: '##' failed: concatenation is not a valid token
+D:/Vagez/x20ost/Logical/bnrmain/bnrcomserver.h:118:1: error: '##' failed: concatenation is not a valid token
+D:/Vagez/x20ost/Logical/bnrmain/bnrcomserver.h:118:1: error: '##' failed: concatenation is not a valid token
+D:/Vagez/x20ost/Logical/bnrmain/bnrcomserver.c:1128:1: error: '##' failed: concatenation is not a valid token
+D:/Vagez/x20ost/Logical/bnrmain/bnrcomserver.c:1128:1: error: '##' failed: concatenation is not a valid token
+D:/Vagez/x20ost/Logical/bnrmain/bnrcomserver.c:1128:1: error: '##' failed: concatenation is not a valid token
+D:/Vagez/x20ost/Logical/bnrmain/bnrcomserver.c:1128:1: error: '##' failed: concatenation is not a valid token
+D:/Vagez/x20ost/Logical/bnrmain/bnrcomserver.c:495:2: error: undefined identifier 'strcpy'
+D:/Vagez/x20ost/Logical/bnrmain/bnrcomserver.c:496:2: error: undefined identifier 'strcat'
+D:/Vagez/x20ost/Logical/bnrmain/bnrcomserver.c:497:2: error: undefined identifier 'strcat'
+D:/Vagez/x20ost/Logical/bnrmain/bnrcomserver.c:498:2: error: undefined identifier 'strcat'
+D:/Vagez/x20ost/Logical/bnrmain/bnrcomserver.c:499:2: error: undefined identifier 'strcat'
+D:/Vagez/x20ost/Logical/bnrmain/bnrcomserver.c:500:2: error: undefined identifier 'strcat'
+D:/Vagez/x20ost/Logical/bnrmain/bnrcomserver.c:501:2: error: undefined identifier 'strcat'
+D:/Vagez/x20ost/Logical/bnrmain/bnrcomserver.c:502:2: error: undefined identifier 'strcat'
+D:/Vagez/x20ost/Logical/bnrmain/bnrcomserver.c:503:2: error: undefined identifier 'strcat'
+D:/Vagez/x20ost/Logical/bnrmain/bnrcomserver.c:505:2: error: undefined identifier 'strcpy'
+D:/Vagez/x20ost/Logical/bnrmain/bnrcomserver.c:528:5: error: undefined identifier 'strcpy'
+D:/Vagez/x20ost/Logical/bnrmain/bnrcomserver.c:529:2: error: undefined identifier 'memset'
+D:/Vagez/x20ost/Logical/bnrmain/bnrcomserver.c:531:2: error: undefined identifier 'strcpy'
+D:/Vagez/x20ost/Logical/bnrmain/bnrcomserver.c:532:2: error: undefined identifier 'strcat'
+D:/Vagez/x20ost/Logical/bnrmain/bnrcomserver.c:533:2: error: undefined identifier 'strcat'
+D:/Vagez/x20ost/Logical/bnrmain/bnrcomserver.c:534:2: error: undefined identifier 'strcat'
+D:/Vagez/x20ost/Logical/bnrmain/bnrcomserver.c:535:2: error: undefined identifier 'strcat'
+D:/Vagez/x20ost/Logical/bnrmain/bnrcomserver.c:536:2: error: undefined identifier 'strcat'
+D:/Vagez/x20ost/Logical/bnrmain/bnrcomserver.c:537:2: error: undefined identifier 'strcat'
+D:/Vagez/x20ost/Logical/bnrmain/bnrcomserver.c:538:2: error: undefined identifier 'strcat'
+D:/Vagez/x20ost/Logical/bnrmain/bnrcomserver.c:539:2: error: undefined identifier 'strcat'
+D:/Vagez/x20ost/Logical/bnrmain/bnrcomserver.c:557:2: error: undefined identifier 'memset'
+D:/Vagez/x20ost/Logical/bnrmain/bnrcomserver.c:587:2: error: undefined identifier 'strcpy'
+D:/Vagez/x20ost/Logical/bnrmain/bnrcomserver.c:683:3: error: undefined identifier 'memcpy'
+D:/Vagez/x20ost/Logical/bnrmain/bnrcomserver.c:922:12: error: undefined identifier 'strlen'
+D:/Vagez/x20ost/Logical/bnrmain/bnrcomserver.c:923:12: error: undefined identifier 'strlen'
+D:/Vagez/x20ost/Logical/bnrmain/bnrcomserver.c:1070:28: error: undefined identifier 'strlen'
+D:/Vagez/x20ost/Logical/bnrmain/bnrcomserver.c:1078:2: error: undefined identifier 'strcpy'

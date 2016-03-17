@@ -1,0 +1,6 @@
+$(AS_PROJECT_PATH)/Logical/bnrmain/bnrdigsensor.c
+$(AS_PROJECT_PATH)/Logical/bnrmain/bnrdigsensor.h
+$(AS_PROJECT_PATH)/Logical/bnrmain/typedefs.h
+$(AS_PROJECT_PATH)/Logical/bnrmain/bnrconst.h
+$(AS_PROJECT_PATH)/Logical/bnrmain/bnrdbout.h
+$(AS_PROJECT_PATH)/Logical/bnrmain/bnrsensr.h

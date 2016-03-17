@@ -1,0 +1,9 @@
+$(AS_PROJECT_PATH)/Logical/bnrmain/bnrmytimer.c
+$(AS_PROJECT_PATH)/Logical/bnrmain/bnrmytimer.h
+$(AS_PROJECT_PATH)/Logical/bnrmain/typedefs.h
+$(AS_PROJECT_PATH)/Logical/bnrmain/bnrconst.h
+$(AS_PROJECT_PATH)/Logical/bnrmain/bnrdbout.h
+$(AS_PROJECT_PATH)/Logical/bnrmain/bnrsystemtimer.h
+$(AS_PROJECT_PATH)/Logical/bnrmain/bnrmessage.h
+$(AS_PROJECT_PATH)/Logical/bnrmain/bnrpob.h
+$(AS_PROJECT_PATH)/Logical/bnrmain/bnrdebug.h

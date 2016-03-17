@@ -1,0 +1,67 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * File: IoMap.iom
+ * Author: a2000
+ * Created: December 09, 2009
+ ********************************************************************
+ * IO mapping file
+ ********************************************************************)
+VAR_CONFIG
+	uiValueAI4_0 AT %IW.IF4.ST3.AnalogInput01;
+	uiValueAI4_1 AT %IW.IF4.ST3.AnalogInput02;
+	uiValueAI5_0 AT %IW.IF4.ST4.Temperature01;
+	uiValueAI5_1 AT %IW.IF4.ST4.Temperature02;
+	uiValueAO6_0 AT %QW.IF4.ST5.AnalogOutput01;
+	uiValueAO6_1 AT %QW.IF4.ST5.AnalogOutput02;
+	uiValueAO6_2 AT %QW.IF4.ST5.AnalogOutput03;
+	uiValueAO6_3 AT %QW.IF4.ST5.AnalogOutput04;
+	blValueDI7_0 AT %IX.IF4.ST6.DigitalInput01;
+	blValueDI7_1 AT %IX.IF4.ST6.DigitalInput02;
+	blValueDI7_2 AT %IX.IF4.ST6.DigitalInput03;
+	blValueDI7_3 AT %IX.IF4.ST6.DigitalInput04;
+	blValueDI7_4 AT %IX.IF4.ST6.DigitalInput05;
+	blValueDI7_5 AT %IX.IF4.ST6.DigitalInput06;
+	blValueDI7_6 AT %IX.IF4.ST6.DigitalInput07;
+	blValueDI7_7 AT %IX.IF4.ST6.DigitalInput08;
+	blValueDI7_8 AT %IX.IF4.ST6.DigitalInput09;
+	blValueDI7_9 AT %IX.IF4.ST6.DigitalInput10;
+	blValueDI7_10 AT %IX.IF4.ST6.DigitalInput11;
+	blValueDI7_11 AT %IX.IF4.ST6.DigitalInput12;
+	blValueDI8_0 AT %IX.IF4.ST7.DigitalInput01;
+	blValueDI8_1 AT %IX.IF4.ST7.DigitalInput02;
+	blValueDI8_2 AT %IX.IF4.ST7.DigitalInput03;
+	blValueDI8_3 AT %IX.IF4.ST7.DigitalInput04;
+	blValueDI8_4 AT %IX.IF4.ST7.DigitalInput05;
+	blValueDI8_5 AT %IX.IF4.ST7.DigitalInput06;
+	blValueDI8_6 AT %IX.IF4.ST7.DigitalInput07;
+	blValueDI8_7 AT %IX.IF4.ST7.DigitalInput08;
+	blValueDI8_8 AT %IX.IF4.ST7.DigitalInput09;
+	blValueDI8_9 AT %IX.IF4.ST7.DigitalInput10;
+	blValueDI8_10 AT %IX.IF4.ST7.DigitalInput11;
+	blValueDI8_11 AT %IX.IF4.ST7.DigitalInput12;
+	blValueDO9_0 AT %QX.IF4.ST8.DigitalOutput01;
+	blValueDO9_1 AT %QX.IF4.ST8.DigitalOutput02;
+	blValueDO9_2 AT %QX.IF4.ST8.DigitalOutput03;
+	blValueDO9_3 AT %QX.IF4.ST8.DigitalOutput04;
+	blValueDO9_4 AT %QX.IF4.ST8.DigitalOutput05;
+	blValueDO9_5 AT %QX.IF4.ST8.DigitalOutput06;
+	blValueDO9_6 AT %QX.IF4.ST8.DigitalOutput07;
+	blValueDO9_7 AT %QX.IF4.ST8.DigitalOutput08;
+	blValueDO9_8 AT %QX.IF4.ST8.DigitalOutput09;
+	blValueDO9_9 AT %QX.IF4.ST8.DigitalOutput10;
+	blValueDO9_10 AT %QX.IF4.ST8.DigitalOutput11;
+	blValueDO9_11 AT %QX.IF4.ST8.DigitalOutput12;
+	blValueDO10_0 AT %QX.IF4.ST9.DigitalOutput01;
+	blValueDO10_1 AT %QX.IF4.ST9.DigitalOutput02;
+	blValueDO10_2 AT %QX.IF4.ST9.DigitalOutput03;
+	blValueDO10_3 AT %QX.IF4.ST9.DigitalOutput04;
+	blValueDO10_4 AT %QX.IF4.ST9.DigitalOutput05;
+	blValueDO10_5 AT %QX.IF4.ST9.DigitalOutput06;
+	blValueDO10_6 AT %QX.IF4.ST9.DigitalOutput07;
+	blValueDO10_7 AT %QX.IF4.ST9.DigitalOutput08;
+	blValueDO10_8 AT %QX.IF4.ST9.DigitalOutput09;
+	blValueDO10_9 AT %QX.IF4.ST9.DigitalOutput10;
+	blValueDO10_10 AT %QX.IF4.ST9.DigitalOutput11;
+	blValueDO10_11 AT %QX.IF4.ST9.DigitalOutput12;
+END_VAR
