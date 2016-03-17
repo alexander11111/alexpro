@@ -1,0 +1,10 @@
+D:\BelHard\C#\Projects\KWaySort\KSort\bin\Debug\KSort.exe.config
+D:\BelHard\C#\Projects\KWaySort\KSort\bin\Debug\KSort.exe
+D:\BelHard\C#\Projects\KWaySort\KSort\bin\Debug\KSort.pdb
+D:\BelHard\C#\Projects\KWaySort\KSort\obj\Debug\KSort.csprojResolveAssemblyReference.cache
+D:\BelHard\C#\Projects\KWaySort\KSort\obj\Debug\KSort.exe
+D:\BelHard\C#\Projects\KWaySort\KSort\obj\Debug\KSort.pdb
+D:\BelHard\C#\Projects\KWaySort\KSort\bin\Debug\ConcurrentPriorityQueue.dll
+D:\BelHard\C#\Projects\KWaySort\KSort\bin\Debug\ConcurrentPriorityQueue.pdb
+D:\BelHard\C#\Projects\KWaySort\KSort\bin\Debug\Sinbadsoft.Lib.Collections.dll
+D:\BelHard\C#\Projects\KWaySort\KSort\bin\Debug\Sinbadsoft.Lib.Collections.xml
