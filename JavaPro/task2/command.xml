@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<shellCommands>
+    <commands id="1">
+        <name>ps</name>
+        <className>ru.java.command.ps</className>
+    </commands>
+    <commands id="2">
+        <name>ls</name>
+        <className>ru.java.command.ls</className>
+    </commands>
+    <commands id="3">
+        <name>pwd</name>
+        <className>ru.java.command.pwd</className>
+    </commands>
+</shellCommands>

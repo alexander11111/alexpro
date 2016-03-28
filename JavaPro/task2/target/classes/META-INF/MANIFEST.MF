@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Built-By: Alex
+Class-Path: lib/jProcesses-1.2.1.jar lib/WMI4Java-1.1.jar lib/jPowerSh
+ ell-1.3.jar
+Build-Jdk: 1.8.0_74
+Created-By: Maven Integration for Eclipse
+Main-Class: task2.CommandShell
+
