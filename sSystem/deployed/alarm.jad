@@ -1,8 +1,0 @@
-MIDlet-1: main,,src.CMain
-MIDlet-Jar-Size: 27000
-MIDlet-Jar-URL: EJEMPLOGPIOAPI.jar
-MIDlet-Name: EJEMPLOGPIOAPI Midlet Suite
-MIDlet-Vendor: Midlet Suite Vendor
-MIDlet-Version: 1.0.0
-MicroEdition-Configuration: CLDC-1.1
-MicroEdition-Profile: IMP-NG

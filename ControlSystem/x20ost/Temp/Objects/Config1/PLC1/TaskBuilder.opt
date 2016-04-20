@@ -1,1 +1,0 @@
-bnrmain	"$(AS_CPU_PATH)/bnrmain/bnrmain.ox" -o "$(AS_CPU_PATH)/bnrmain.br" -v V1.00.0 -f "$(AS_CPU_PATH)/Global.ofs" -T SGC -B V2.00 -d "gcloader: V1.32 - V*" -r Cyclic4 -p 2 -s bnrmain

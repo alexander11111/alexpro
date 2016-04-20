@@ -1,1 +1,0 @@
-bnrmain	 -T SGC -B V2.00 -G V2.95.3 -s bnrmain -t "$(AS_TEMP_PATH)" -I "$(AS_PROJECT_PATH)/Logical/bnrmain" "$(AS_TEMP_PATH)/Includes/bnrmain" "$(AS_TEMP_PATH)/Includes" -trigraphs -fno-asm -D _DEFAULT_INCLUDES -Wall -fpic -m68000 -msoft-float -O2 -g -nostartfiles -x c -include "$(AS_CPU_PATH)/Libraries.h"

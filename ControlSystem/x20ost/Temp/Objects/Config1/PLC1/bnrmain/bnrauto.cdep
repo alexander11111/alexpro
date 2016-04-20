@@ -1,5 +1,0 @@
-$(AS_PROJECT_PATH)/Logical/bnrmain/bnrauto.c
-$(AS_PROJECT_PATH)/Logical/bnrmain/bnrauto.h
-$(AS_PROJECT_PATH)/Logical/bnrmain/typedefs.h
-$(AS_PROJECT_PATH)/Logical/bnrmain/bnrconst.h
-$(AS_PROJECT_PATH)/Logical/bnrmain/bnrdbout.h

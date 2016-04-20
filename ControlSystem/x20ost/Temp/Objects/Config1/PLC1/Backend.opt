@@ -1,1 +1,0 @@
-bnrmain	"$(AS_CPU_PATH)/bnrmain/bnrmain.out" -o "$(AS_CPU_PATH)/bnrmain/bnrmain.ox" -T SGC -r Cyclic4   -G V2.95.3

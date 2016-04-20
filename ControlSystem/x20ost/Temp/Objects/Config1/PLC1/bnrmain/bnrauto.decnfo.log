@@ -1,7 +1,0 @@
-D:/Vagez/x20ost/Logical/bnrmain/bnrauto.c:83:28: warning: no newline at end of file
-D:/Vagez/x20ost/Logical/bnrmain/bnrconst.h:907:6: warning: no newline at end of file
-D:/Vagez/x20ost/Logical/bnrmain/bnrauto.h:30:1: error: '##' failed: concatenation is not a valid token
-D:/Vagez/x20ost/Logical/bnrmain/bnrauto.h:30:1: error: '##' failed: concatenation is not a valid token
-D:/Vagez/x20ost/Logical/bnrmain/bnrauto.c:83:1: error: '##' failed: concatenation is not a valid token
-D:/Vagez/x20ost/Logical/bnrmain/bnrauto.c:83:1: error: '##' failed: concatenation is not a valid token
-D:/Vagez/x20ost/Logical/bnrmain/bnrauto.c:83:1: error: '##' failed: concatenation is not a valid token
